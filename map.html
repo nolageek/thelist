@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" class="app">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bay Area Venue Map - The List</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<div class="wrap">
+  <nav class="top">
+    <button id="navToggle" class="nav-toggle" aria-label="Open menu"><i class="fa-solid fa-bars"></i></button>
+    <div class="nav-links" id="navLinks">
+      <div class="nav-drawer-header">
+        Menu
+        <button id="navClose" class="nav-close" aria-label="Close menu"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <a href="index.html">Show List</a>
+      <a href="map.html" class="active">Venue Map</a>
+      <a href="calendar.html">Calendar</a>
+    </div>
+  </nav>
+  <div class="nav-backdrop" id="navBackdrop"></div>
+
+  <header class="masthead">
+    <p class="eyebrow">The List &middot; Venue Map</p>
+    <h1>Where the shows are</h1>
+    <p class="sub">Click a marker (or search below) to see that venue's full calendar of upcoming shows from The List.</p>
+  </header>
+
+  <div class="main">
+    <div id="map"></div>
+    <div id="sidebar">
+      <button id="panelClose" class="panel-close" aria-label="Close panel"><i class="fa-solid fa-xmark"></i></button>
+      <input type="search" id="venueSearch" placeholder="Search venues...">
+      <div id="sidebarContent">
+        <div class="placeholder">Click a marker on the map, or search for a venue, to see its show calendar. Bigger dots have more shows booked.</div>
+      </div>
+    </div>
+  </div>
+  <div class="panel-backdrop" id="panelBackdrop"></div>
+
+  <footer class="note">Marker positions come from a one-time geocoding pass and may be approximate for a few small/DIY venues. Data: <code>data/venues.json</code> + <code>data/shows.json</code>.</footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="assets/common.js"></script>
+<script src="assets/page-map.js"></script>
+</body>
+</html>

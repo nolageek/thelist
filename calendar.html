@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" class="app">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bay Area Shows - Calendar</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<div class="wrap">
+  <nav class="top">
+    <button id="navToggle" class="nav-toggle" aria-label="Open menu"><i class="fa-solid fa-bars"></i></button>
+    <div class="nav-links" id="navLinks">
+      <div class="nav-drawer-header">
+        Menu
+        <button id="navClose" class="nav-close" aria-label="Close menu"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <a href="index.html">Show List</a>
+      <a href="map.html">Venue Map</a>
+      <a href="calendar.html" class="active">Calendar</a>
+    </div>
+  </nav>
+  <div class="nav-backdrop" id="navBackdrop"></div>
+
+  <header class="masthead">
+    <p class="eyebrow">The List &middot; Calendar</p>
+    <h1>Month at a glance</h1>
+    <p class="sub">Click any day to see its full lineup in the panel on the right. Use search, venue, band, or attribute filters to dim out everything else on the grid.</p>
+  </header>
+
+  <div class="controls">
+    <input type="search" id="searchBox" placeholder="Search band, venue, or city...">
+    <select id="venueSelect" class="chip"><option value="">All venues</option></select>
+    <select id="bandSelect" class="chip"><option value="">All bands</option></select>
+    <div class="chip-group" id="symChips">
+      <span class="chip" data-sym="*" title="Recommended show"><i class="fa-solid fa-star ic-star"></i></span>
+      <span class="chip" data-sym="$" title="Will probably sell out"><i class="fa-solid fa-fire ic-fire"></i></span>
+      <span class="chip" data-sym="^" title="Under 21 must buy drink tickets"><i class="fa-solid fa-cake-candles ic-cake"></i></span>
+      <span class="chip" data-sym="a/a" title="All ages"><i class="fa-solid fa-hands-holding-child ic-handschild"></i></span>
+      <span class="chip" data-sym="@" title="Pit warning"><i class="fa-solid fa-user-injured ic-injured"></i></span>
+      <span class="chip" data-sym="#" title="No ins/outs"><i class="fa-solid fa-door-closed ic-door"></i></span>
+    </div>
+  </div>
+
+  <div class="month-nav">
+    <button id="prevMonth">&larr; Prev</button>
+    <div class="label" id="monthLabel">&nbsp;</div>
+    <button id="nextMonth">Next &rarr;</button>
+    <select id="monthJump"></select>
+    <button id="todayBtn" class="today-btn">Today</button>
+  </div>
+
+  <div class="main">
+    <div class="cal-area">
+      <div class="dow-row">
+        <div>Mon</div><div>Tue</div><div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div><div>Sun</div>
+      </div>
+      <div class="cal-grid" id="calGrid"></div>
+    </div>
+    <div id="sidebar">
+      <button id="panelClose" class="panel-close" aria-label="Close panel"><i class="fa-solid fa-xmark"></i></button>
+      <div id="sidebarContent">
+        <div class="placeholder">Click a day on the calendar to see its full show list here.</div>
+      </div>
+    </div>
+  </div>
+  <div class="panel-backdrop" id="panelBackdrop"></div>
+
+  <footer class="note">Data: <code>data/shows.json</code> + <code>data/venues.json</code>. Days with no listed shows are simply blank.</footer>
+</div>
+
+<script src="assets/common.js"></script>
+<script src="assets/page-calendar.js"></script>
+</body>
+</html>
