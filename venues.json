@@ -1,0 +1,1442 @@
+[
+ {
+  "id": "v0001",
+  "name": "924 Gilman Street",
+  "city": "Berkeley",
+  "address": "924 Gilman St, Berkeley, CA 94710, USA",
+  "lat": 37.8794617,
+  "lng": -122.2993032,
+  "precise": true,
+  "show_count": 20
+ },
+ {
+  "id": "v0002",
+  "name": "Beauty Supply above Tay Ho, 344 12th St.",
+  "city": "Oakland",
+  "address": "Oakland",
+  "lat": 37.8044,
+  "lng": -122.2712,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0003",
+  "name": "Stay Gold Deli",
+  "city": "Oakland",
+  "address": "2635 San Pablo Ave, Oakland, CA 94612, USA",
+  "lat": 37.8177234,
+  "lng": -122.2758895,
+  "precise": true,
+  "show_count": 4
+ },
+ {
+  "id": "v0004",
+  "name": "Cornerstone",
+  "city": "Berkely",
+  "address": "2367 Shattuck Ave, Berkeley, CA 94704, USA",
+  "lat": 37.8663201,
+  "lng": -122.2673229,
+  "precise": true,
+  "show_count": 14
+ },
+ {
+  "id": "v0005",
+  "name": "Greek Theater",
+  "city": "UC Berkeley Campus",
+  "address": "Hearst Greek Theatre, 2001 Gayley Rd, Berkeley, CA 94720, USA",
+  "lat": 37.8735759,
+  "lng": -122.2544715,
+  "precise": true,
+  "show_count": 23
+ },
+ {
+  "id": "v0006",
+  "name": "Arena",
+  "city": "Oakland",
+  "address": "7000 S Coliseum Wy, Oakland, CA 94621, USA",
+  "lat": 37.750338,
+  "lng": -122.203049,
+  "precise": true,
+  "show_count": 24
+ },
+ {
+  "id": "v0007",
+  "name": "Fox Theater",
+  "city": "Oakland",
+  "address": "1807 Telegraph Ave, Oakland, CA 94612, USA",
+  "lat": 37.8080211,
+  "lng": -122.2702226,
+  "precise": true,
+  "show_count": 40
+ },
+ {
+  "id": "v0008",
+  "name": "Ivy Room",
+  "city": "Albany",
+  "address": "860 San Pablo Ave, Albany, CA 94706, USA",
+  "lat": 37.890476,
+  "lng": -122.299261,
+  "precise": true,
+  "show_count": 47
+ },
+ {
+  "id": "v0009",
+  "name": "thee Stork Club",
+  "city": "Oakland",
+  "address": "2330 Telegraph Ave, Oakland, CA 94612, USA",
+  "lat": 37.8131757,
+  "lng": -122.2683657,
+  "precise": true,
+  "show_count": 32
+ },
+ {
+  "id": "v0010",
+  "name": "Yoshi's",
+  "city": "Oakland",
+  "address": "510 Embarcadero West, Oakland, CA 94607, USA",
+  "lat": 37.7963889,
+  "lng": -122.2788889,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0011",
+  "name": "Regency Ballroom",
+  "city": "S.F.",
+  "address": "1300 Van Ness Ave, San Francisco, CA 94109, USA",
+  "lat": 37.7878701,
+  "lng": -122.4214133,
+  "precise": true,
+  "show_count": 36
+ },
+ {
+  "id": "v0012",
+  "name": "Fillmore",
+  "city": "S.F.",
+  "address": "1805 Geary Blvd, San Francisco, CA 94115, USA",
+  "lat": 37.784,
+  "lng": -122.4329,
+  "precise": true,
+  "show_count": 51
+ },
+ {
+  "id": "v0013",
+  "name": "Independent",
+  "city": "S.F.",
+  "address": "628 Divisadero St, San Francisco, CA 94117, USA",
+  "lat": 37.7755318,
+  "lng": -122.4376002,
+  "precise": true,
+  "show_count": 44
+ },
+ {
+  "id": "v0014",
+  "name": "Rickshaw Stop",
+  "city": "S.F.",
+  "address": "155 Fell St, San Francisco, CA 94102, USA",
+  "lat": 37.7761203,
+  "lng": -122.4205138,
+  "precise": true,
+  "show_count": 55
+ },
+ {
+  "id": "v0015",
+  "name": "Mercury Cafe, 201 Octavia Street",
+  "city": "S.F.",
+  "address": "201 Octavia St, San Francisco, CA 94102, USA",
+  "lat": 37.7739809,
+  "lng": -122.4242534,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0016",
+  "name": "Cafe Du Nord",
+  "city": "S.F.",
+  "address": "2174 Market St, San Francisco, CA 94114, USA",
+  "lat": 37.7667469,
+  "lng": -122.4303843,
+  "precise": true,
+  "show_count": 5
+ },
+ {
+  "id": "v0017",
+  "name": "Civic Auditorium",
+  "city": "S.F.",
+  "address": "99 Grove St, San Francisco, CA 94102, USA",
+  "lat": 37.7781454,
+  "lng": -122.4173447,
+  "precise": true,
+  "show_count": 10
+ },
+ {
+  "id": "v0018",
+  "name": "Bottom of the Hill",
+  "city": "S.F.",
+  "address": "1233 17th St, San Francisco, CA 94107, USA",
+  "lat": 37.7649778,
+  "lng": -122.3964389,
+  "precise": true,
+  "show_count": 63
+ },
+ {
+  "id": "v0019",
+  "name": "Bimbo's 365 Club",
+  "city": "S.F.",
+  "address": "1025 Columbus Ave, San Francisco, CA 94133, USA",
+  "lat": 37.8038622,
+  "lng": -122.4157199,
+  "precise": true,
+  "show_count": 20
+ },
+ {
+  "id": "v0020",
+  "name": "Black Cat",
+  "city": "S.F.",
+  "address": "400 Eddy St, San Francisco, CA 94109, USA",
+  "lat": 37.7838333,
+  "lng": -122.4144611,
+  "precise": true,
+  "show_count": 4
+ },
+ {
+  "id": "v0021",
+  "name": "Phoenix Theater",
+  "city": "Petaluma",
+  "address": "201 Washington St, Petaluma, CA 94952, USA",
+  "lat": 38.2349545,
+  "lng": -122.643064,
+  "precise": true,
+  "show_count": 12
+ },
+ {
+  "id": "v0022",
+  "name": "Hopmonk Tavern",
+  "city": "Novato",
+  "address": "224 Vintage Way, Novato, CA 94945, USA",
+  "lat": 38.088546,
+  "lng": -122.5534481,
+  "precise": true,
+  "show_count": 33
+ },
+ {
+  "id": "v0023",
+  "name": "California Theater, 528 7th St.",
+  "city": "Santa Rosa",
+  "address": "528 7th St, Santa Rosa, CA 95401, USA",
+  "lat": 38.4423289,
+  "lng": -122.7161522,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0024",
+  "name": "Arlene Francis Center",
+  "city": "Santa Rosa",
+  "address": "99 6th St, Santa Rosa, CA 95401, USA",
+  "lat": 38.4390705,
+  "lng": -122.7221935,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0025",
+  "name": "Carnalitos Customs, 905 Tennessee Street",
+  "city": "Vallejo",
+  "address": "905 Tennessee St, Vallejo, CA 94590, USA",
+  "lat": 38.109791,
+  "lng": -122.2480932,
+  "precise": true,
+  "show_count": 2
+ },
+ {
+  "id": "v0026",
+  "name": "Mountain Winery",
+  "city": "Saratoga",
+  "address": "14831 Pierce Rd, Saratoga, CA 95070, USA",
+  "lat": 37.2601556,
+  "lng": -122.0647,
+  "precise": true,
+  "show_count": 61
+ },
+ {
+  "id": "v0027",
+  "name": "Caravan Lounge",
+  "city": "San Jose",
+  "address": "98 S Almaden Ave, San Jose, CA 95113, USA",
+  "lat": 37.3329778,
+  "lng": -121.8923531,
+  "precise": true,
+  "show_count": 2
+ },
+ {
+  "id": "v0028",
+  "name": "Subrosa",
+  "city": "Santa Cruz",
+  "address": "703 Pacific Ave, Santa Cruz, CA 95060, USA",
+  "lat": 36.9685444,
+  "lng": -122.024975,
+  "precise": true,
+  "show_count": 2
+ },
+ {
+  "id": "v0029",
+  "name": "Blue Lagoon",
+  "city": "Santa Cruz",
+  "address": "923 Pacific Ave, Santa Cruz, CA 95060, USA",
+  "lat": 36.9706083,
+  "lng": -122.0253611,
+  "precise": true,
+  "show_count": 3
+ },
+ {
+  "id": "v0030",
+  "name": "Jury Room",
+  "city": "Santa Cruz",
+  "address": "712 Ocean St, Santa Cruz, CA 95060, USA",
+  "lat": 36.9785351,
+  "lng": -122.0206576,
+  "precise": true,
+  "show_count": 5
+ },
+ {
+  "id": "v0031",
+  "name": "Alameda County Fair",
+  "city": "Pleasanton",
+  "address": "2005 Valley Ave, Pleasanton, CA 94566, USA",
+  "lat": 37.6600497,
+  "lng": -121.8968548,
+  "precise": true,
+  "show_count": 12
+ },
+ {
+  "id": "v0032",
+  "name": "Community Library, 708 Railroad Avenue",
+  "city": "Winters",
+  "address": "708 Railroad Ave, Winters, CA 95694, USA",
+  "lat": 38.5256668,
+  "lng": -121.9715207,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0033",
+  "name": "Down Home Music",
+  "city": "El Cerrito",
+  "address": "10341 San Pablo Ave, El Cerrito, CA 94530, USA",
+  "lat": 37.9068412,
+  "lng": -122.3059282,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0034",
+  "name": "Up the Creek Records",
+  "city": "Walnut Creek",
+  "address": "2042 Mt Diablo Blvd, Walnut Creek, CA 94596, USA",
+  "lat": 37.8972403,
+  "lng": -122.0684994,
+  "precise": true,
+  "show_count": 10
+ },
+ {
+  "id": "v0035",
+  "name": "Veterans Memorial",
+  "city": "Hayward",
+  "address": "22737 Main St, Hayward, CA 94541, USA",
+  "lat": 37.6712031,
+  "lng": -122.0814918,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0036",
+  "name": "Danny Murry's",
+  "city": "San Leandro",
+  "address": "1680 Washington Ave, San Leandro, CA 94577, USA",
+  "lat": 37.7214826,
+  "lng": -122.1538475,
+  "precise": true,
+  "show_count": 3
+ },
+ {
+  "id": "v0038",
+  "name": "Thrillhouse Records",
+  "city": "S.F.",
+  "address": "3422 Mission St, San Francisco, CA 94110, USA",
+  "lat": 37.7419415,
+  "lng": -122.4225348,
+  "precise": true,
+  "show_count": 5
+ },
+ {
+  "id": "v0039",
+  "name": "Warfield",
+  "city": "S.F.",
+  "address": "982 Market St, San Francisco, CA 94102, USA",
+  "lat": 37.7826737,
+  "lng": -122.410428,
+  "precise": true,
+  "show_count": 35
+ },
+ {
+  "id": "v0040",
+  "name": "Great American Music Hall",
+  "city": "S.F.",
+  "address": "859 O'Farrell St, San Francisco, CA 94109, USA",
+  "lat": 37.7849611,
+  "lng": -122.4188778,
+  "precise": true,
+  "show_count": 42
+ },
+ {
+  "id": "v0041",
+  "name": "Mabuhay Gardens",
+  "city": "SF",
+  "address": "443 Broadway, San Francisco, CA 94133, USA",
+  "lat": 37.7978148,
+  "lng": -122.4045312,
+  "precise": true,
+  "show_count": 2
+ },
+ {
+  "id": "v0042",
+  "name": "Chapel",
+  "city": "S.F.",
+  "address": "777 Valencia St, San Francisco, CA 94110, USA",
+  "lat": 37.7604864,
+  "lng": -122.4212979,
+  "precise": true,
+  "show_count": 58
+ },
+ {
+  "id": "v0043",
+  "name": "Neck of the Woods",
+  "city": "S.F.",
+  "address": "406 Clement St, San Francisco, CA 94118, USA",
+  "lat": 37.7831236,
+  "lng": -122.4637279,
+  "precise": true,
+  "show_count": 16
+ },
+ {
+  "id": "v0044",
+  "name": "Brick and Mortar",
+  "city": "S.F.",
+  "address": "1710 Mission St, San Francisco, CA 94103, USA",
+  "lat": 37.769711,
+  "lng": -122.420421,
+  "precise": true,
+  "show_count": 12
+ },
+ {
+  "id": "v0045",
+  "name": "the Knockout",
+  "city": "S.F.",
+  "address": "3223 Mission St, San Francisco, CA 94110, USA",
+  "lat": 37.7451582,
+  "lng": -122.4199482,
+  "precise": true,
+  "show_count": 19
+ },
+ {
+  "id": "v0046",
+  "name": "Hotel Utah",
+  "city": "S.F.",
+  "address": "500 4th St, San Francisco, CA 94107, USA",
+  "lat": 37.7794001,
+  "lng": -122.3980883,
+  "precise": true,
+  "show_count": 8
+ },
+ {
+  "id": "v0047",
+  "name": "Meritage Resort",
+  "city": "Napa",
+  "address": "875 Bordeaux Way, Napa, CA 94558, USA",
+  "lat": 38.246123,
+  "lng": -122.2741878,
+  "precise": true,
+  "show_count": 26
+ },
+ {
+  "id": "v0048",
+  "name": "Winters Tavern",
+  "city": "Pacifica",
+  "address": "1522 Francisco Blvd, Pacifica, CA 94044, USA",
+  "lat": 37.6366674,
+  "lng": -122.4904114,
+  "precise": true,
+  "show_count": 2
+ },
+ {
+  "id": "v0050",
+  "name": "Ritz",
+  "city": "San Jose",
+  "address": "400 S 1st St, San Jose, CA 95113, USA",
+  "lat": 37.3300018,
+  "lng": -121.8857956,
+  "precise": true,
+  "show_count": 21
+ },
+ {
+  "id": "v0051",
+  "name": "Streetlight Records",
+  "city": "San Jose",
+  "address": "980 S Bascom Ave, San Jose, CA 95128, USA",
+  "lat": 37.307948,
+  "lng": -121.931474,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0052",
+  "name": "Pussy Palace",
+  "city": "Oakland",
+  "address": "Oakland",
+  "lat": 37.8044,
+  "lng": -122.2712,
+  "precise": false,
+  "show_count": 2
+ },
+ {
+  "id": "v0053",
+  "name": "Civic Center and Market Street Parade",
+  "city": "S.F.",
+  "address": "Civic Center, San Francisco, CA 94102, USA",
+  "lat": 37.7773082,
+  "lng": -122.4196412,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0054",
+  "name": "Stern Grove Festival",
+  "city": "S.F.",
+  "address": "Sloat Blvd, San Francisco, CA 94132, USA",
+  "lat": 37.7362296,
+  "lng": -122.4793847,
+  "precise": true,
+  "show_count": 9
+ },
+ {
+  "id": "v0055",
+  "name": "Kilowatt",
+  "city": "S.F.",
+  "address": "3160 16th St, San Francisco, CA 94103, USA",
+  "lat": 37.7650579,
+  "lng": -122.4232555,
+  "precise": true,
+  "show_count": 29
+ },
+ {
+  "id": "v0056",
+  "name": "Uptown Theater",
+  "city": "Napa",
+  "address": "1350 3rd St, Napa, CA 94559, USA",
+  "lat": 38.2965348,
+  "lng": -122.2875521,
+  "precise": true,
+  "show_count": 12
+ },
+ {
+  "id": "v0057",
+  "name": "Guild Theater",
+  "city": "Menlo Park",
+  "address": "949 El Camino Real, Menlo Park, CA 94025, USA",
+  "lat": 37.4524199,
+  "lng": -122.181247,
+  "precise": true,
+  "show_count": 5
+ },
+ {
+  "id": "v0058",
+  "name": "UC Theater",
+  "city": "Berkeley",
+  "address": "2036 University Ave, Berkeley, CA 94704, USA",
+  "lat": 37.8718053,
+  "lng": -122.2698086,
+  "precise": true,
+  "show_count": 22
+ },
+ {
+  "id": "v0059",
+  "name": "Make-Out Room",
+  "city": "S.F.",
+  "address": "3225 22nd St, San Francisco, CA 94110, USA",
+  "lat": 37.75526,
+  "lng": -122.4193399,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0060",
+  "name": "Shapeshifters Cinema, 567 5th Street",
+  "city": "Oakland",
+  "address": "567 5th St, Oakland, CA 94607, USA",
+  "lat": 37.7990822,
+  "lng": -122.2780826,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0061",
+  "name": "Siesta Valley Bowl",
+  "city": "Orinda",
+  "address": "100 Gateway Blvd, Orinda, CA 94563, USA",
+  "lat": 37.8702332,
+  "lng": -122.2038049,
+  "precise": true,
+  "show_count": 15
+ },
+ {
+  "id": "v0062",
+  "name": "Sweetwater Music Hall",
+  "city": "Mill Valley",
+  "address": "19 Corte Madera Ave, Mill Valley, CA 94941, USA",
+  "lat": 37.9070164,
+  "lng": -122.5481013,
+  "precise": true,
+  "show_count": 17
+ },
+ {
+  "id": "v0063",
+  "name": "Revolution Cafe",
+  "city": "Oakland",
+  "address": "1608 7th St, Oakland, CA 94607, USA",
+  "lat": 37.8062477,
+  "lng": -122.298452,
+  "precise": true,
+  "show_count": 3
+ },
+ {
+  "id": "v0064",
+  "name": "Lane Splitters Pizza",
+  "city": "Emeryville",
+  "address": "3645 San Pablo Ave, Emeryville, CA 94608, USA",
+  "lat": 37.8281224,
+  "lng": -122.2791745,
+  "precise": true,
+  "show_count": 2
+ },
+ {
+  "id": "v0065",
+  "name": "1015 Folsom",
+  "city": "S.F.",
+  "address": "1015 Folsom St, San Francisco, CA 94103, USA",
+  "lat": 37.7781224,
+  "lng": -122.4057868,
+  "precise": true,
+  "show_count": 4
+ },
+ {
+  "id": "v0066",
+  "name": "Noble Cinema Studios, 1509 Solano Ave.",
+  "city": "Vallejo",
+  "address": "1509 Solano Ave, Vallejo, CA 94590, USA",
+  "lat": 38.101328,
+  "lng": -122.238609,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0067",
+  "name": "DNA Lounge",
+  "city": "S.F.",
+  "address": "375 11th St, San Francisco, CA 94103, USA",
+  "lat": 37.7711099,
+  "lng": -122.4127726,
+  "precise": true,
+  "show_count": 5
+ },
+ {
+  "id": "v0068",
+  "name": "City Hall",
+  "city": "Pleasant Hill",
+  "address": "100 Gregory Ln, Pleasant Hill, CA 94523, USA",
+  "lat": 37.9473633,
+  "lng": -122.063435,
+  "precise": true,
+  "show_count": 5
+ },
+ {
+  "id": "v0069",
+  "name": "Music Hall (Napa)",
+  "city": "Napa",
+  "address": "1030 Main St, Napa, CA 94559, USA",
+  "lat": 38.2996713,
+  "lng": -122.2855166,
+  "precise": true,
+  "show_count": 2
+ },
+ {
+  "id": "v0070",
+  "name": "Castro Theater",
+  "city": "S.f.",
+  "address": "429 Castro St, San Francisco, CA 94114, USA",
+  "lat": 37.7620333,
+  "lng": -122.4347591,
+  "precise": true,
+  "show_count": 48
+ },
+ {
+  "id": "v0071",
+  "name": "Crybaby",
+  "city": "Oakland",
+  "address": "1928 Telegraph Ave, Oakland, CA 94612, USA",
+  "lat": 37.8085876,
+  "lng": -122.269635,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0072",
+  "name": "Band Shell, Golden Gate Park",
+  "city": "S.F.",
+  "address": "Music Concourse Dr, San Francisco, CA 94118, USA",
+  "lat": 37.7699069,
+  "lng": -122.4685162,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0073",
+  "name": "Shoreline Amphitheater",
+  "city": "Mountain View",
+  "address": "One Amphitheatre Pkwy, Mountain View, CA 94043, USA",
+  "lat": 37.4268342,
+  "lng": -122.0807023,
+  "precise": true,
+  "show_count": 19
+ },
+ {
+  "id": "v0074",
+  "name": "Crepe Place",
+  "city": "Santa Cruz",
+  "address": "1134 Soquel Ave, Santa Cruz, CA 95062, USA",
+  "lat": 36.9794801,
+  "lng": -122.0108909,
+  "precise": true,
+  "show_count": 8
+ },
+ {
+  "id": "v0075",
+  "name": "Peacock Lounge",
+  "city": "S.F.",
+  "address": "552 Haight St, San Francisco, CA 94117, USA",
+  "lat": 37.7720932,
+  "lng": -122.4313896,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0076",
+  "name": "Eagle",
+  "city": "S.F.",
+  "address": "398 12th St, San Francisco, CA 94103, USA",
+  "lat": 37.7699944,
+  "lng": -122.4134054,
+  "precise": true,
+  "show_count": 2
+ },
+ {
+  "id": "v0077",
+  "name": "Freight",
+  "city": "Berkeley",
+  "address": "2020 Addison St, Berkeley, CA 94704, USA",
+  "lat": 37.8708514,
+  "lng": -122.2695846,
+  "precise": true,
+  "show_count": 10
+ },
+ {
+  "id": "v0078",
+  "name": "corner of Park Place and Washington",
+  "city": "Point Richmond",
+  "address": "Washington Ave, Point Richmond, CA 94801, USA",
+  "lat": 37.9257077,
+  "lng": -122.3866731,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0079",
+  "name": "Chase Center",
+  "city": "S.F.",
+  "address": "1 Warriors Wy, San Francisco, CA 94158, USA",
+  "lat": 37.7680183,
+  "lng": -122.3878772,
+  "precise": true,
+  "show_count": 15
+ },
+ {
+  "id": "v0081",
+  "name": "Grand Avenue and Wood Street",
+  "city": "West Oakland",
+  "address": "W Grand Ave & Wood St, Oakland, CA 94607, USA",
+  "lat": 37.8187247,
+  "lng": -122.2934637,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0082",
+  "name": "Drake's Barrel House, 1933 Davis St. #177",
+  "city": "San Leandro",
+  "address": "1933 Davis St #177, San Leandro, CA 94577, USA",
+  "lat": 37.7147752,
+  "lng": -122.1791616,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0083",
+  "name": "Masonic",
+  "city": "S.F.",
+  "address": "1111 California St, San Francisco, CA 94108, USA",
+  "lat": 37.791198,
+  "lng": -122.4129823,
+  "precise": true,
+  "show_count": 30
+ },
+ {
+  "id": "v0084",
+  "name": "Yerba Buena Gardens, 750 Howard St.",
+  "city": "S.F.",
+  "address": "750 Howard St, San Francisco, CA 94103, USA",
+  "lat": 37.7849884,
+  "lng": -122.4023514,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0085",
+  "name": "Hopmonk Tavern",
+  "city": "Sebastopol",
+  "address": "230 Petaluma Ave, Sebastopol, CA 95472, USA",
+  "lat": 38.4011563,
+  "lng": -122.8227608,
+  "precise": true,
+  "show_count": 12
+ },
+ {
+  "id": "v0086",
+  "name": "Barrel Proof Lounge, 501 Mendocino Avenue",
+  "city": "Santa Rosa",
+  "address": "501 Mendocino Ave, Santa Rosa, CA 95401, USA",
+  "lat": 38.4423711,
+  "lng": -122.7156721,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0087",
+  "name": "Ferry Buiding",
+  "city": "S.F.",
+  "address": "1 Ferry Building, San Francisco, CA 94105, USA",
+  "lat": 37.7954425,
+  "lng": -122.3936136,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0088",
+  "name": "Moe's Alley",
+  "city": "Santa Cruz",
+  "address": "1535 Commercial Wy, Santa Cruz, CA 95065, USA",
+  "lat": 36.9877378,
+  "lng": -121.9828754,
+  "precise": true,
+  "show_count": 7
+ },
+ {
+  "id": "v0089",
+  "name": "Juction Beer Garden, 226 CA-1",
+  "city": "Mill Valley",
+  "address": "226 Shoreline Hwy, Mill Valley, CA 94941, USA",
+  "lat": 37.8805393,
+  "lng": -122.523443,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0090",
+  "name": "Mosswood Park",
+  "city": "Oakland",
+  "address": "3612 Webster St, Oakland, CA 94609, USA",
+  "lat": 37.8239404,
+  "lng": -122.2605625,
+  "precise": true,
+  "show_count": 3
+ },
+ {
+  "id": "v0092",
+  "name": "Eli's Mile High Club",
+  "city": "Oakland",
+  "address": "3629 Martin Luther King Jr Way, Oakland, CA 94609, USA",
+  "lat": 37.8257875,
+  "lng": -122.2696896,
+  "precise": true,
+  "show_count": 3
+ },
+ {
+  "id": "v0093",
+  "name": "August Hall",
+  "city": "S.F.",
+  "address": "420 Mason St, San Francisco, CA 94102, USA",
+  "lat": 37.7876194,
+  "lng": -122.4098139,
+  "precise": true,
+  "show_count": 39
+ },
+ {
+  "id": "v0095",
+  "name": "Old Princeton Landing",
+  "city": "Half Moon Bay",
+  "address": "460 Capistrano Rd, Half Moon Bay, CA 94019, USA",
+  "lat": 37.5049584,
+  "lng": -122.4861298,
+  "precise": true,
+  "show_count": 5
+ },
+ {
+  "id": "v0096",
+  "name": "Shark Tank",
+  "city": "San Jose",
+  "address": "525 W Santa Clara St, San Jose, CA 95113, USA",
+  "lat": 37.3327655,
+  "lng": -121.9011143,
+  "precise": true,
+  "show_count": 7
+ },
+ {
+  "id": "v0097",
+  "name": "Felton Music Hall",
+  "city": "Felton",
+  "address": "6275 Hwy 9, Felton, CA 95018, USA",
+  "lat": 37.0525755,
+  "lng": -122.0734752,
+  "precise": true,
+  "show_count": 3
+ },
+ {
+  "id": "v0098",
+  "name": "Woodacre Improvement Club",
+  "city": "Woodacre",
+  "address": "1 Garden Way, Woodacre, CA 94973, USA",
+  "lat": 38.0067322,
+  "lng": -122.6364395,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0099",
+  "name": "Rio Theater",
+  "city": "Santa Cruz",
+  "address": "1205 Soquel Ave, Santa Cruz, CA 95062, USA",
+  "lat": 36.9800079,
+  "lng": -122.0104175,
+  "precise": true,
+  "show_count": 7
+ },
+ {
+  "id": "v0100",
+  "name": "Pomona St.",
+  "city": "Crockett",
+  "address": "Crockett, CA 94525, USA",
+  "lat": 38.0524208,
+  "lng": -122.2130236,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0101",
+  "name": "Pavilion",
+  "city": "Concord",
+  "address": "2000 Kirker Pass Rd, Concord, CA 94521, USA",
+  "lat": 37.959729,
+  "lng": -121.9382308,
+  "precise": true,
+  "show_count": 6
+ },
+ {
+  "id": "v0102",
+  "name": "Forest Meadows, 890 Bell Ave.",
+  "city": "San Rafael",
+  "address": "890 Belle Ave, San Rafael, CA 94901, USA",
+  "lat": 37.9791775,
+  "lng": -122.5176727,
+  "precise": true,
+  "show_count": 3
+ },
+ {
+  "id": "v0103",
+  "name": "Faction Brewing",
+  "city": "Alameda",
+  "address": "2501 Monarch St, Alameda, CA 94501, USA",
+  "lat": 37.7867214,
+  "lng": -122.3097144,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0104",
+  "name": "Rats Backwards",
+  "city": "Berkeley",
+  "address": "Berkeley",
+  "lat": 37.8716,
+  "lng": -122.2727,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0105",
+  "name": "4 Star Theater",
+  "city": "S.F.",
+  "address": "2200 Clement St, San Francisco, CA 94121, USA",
+  "lat": 37.7822418,
+  "lng": -122.4829307,
+  "precise": true,
+  "show_count": 4
+ },
+ {
+  "id": "v0106",
+  "name": "Fairgrounds, 175 Fairgrounds Drive",
+  "city": "Petaluma",
+  "address": "175 Fairgrounds Dr, Petaluma, CA 94952, USA",
+  "lat": 38.241377,
+  "lng": -122.6273289,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0107",
+  "name": "Levi's Stadium",
+  "city": "Santa Clara",
+  "address": "4900 Marie P DeBartolo Way, Santa Clara, CA 95054, USA",
+  "lat": 37.4033165,
+  "lng": -121.9693774,
+  "precise": true,
+  "show_count": 5
+ },
+ {
+  "id": "v0108",
+  "name": "a House",
+  "city": "Piedmont",
+  "address": "Piedmont, CA, USA",
+  "lat": 37.8244063,
+  "lng": -122.2314865,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0109",
+  "name": "Streetlight Records",
+  "city": "Santa Cruz",
+  "address": "939 Pacific Ave, Santa Cruz, CA 95060, USA",
+  "lat": 36.9707758,
+  "lng": -122.0254001,
+  "precise": true,
+  "show_count": 3
+ },
+ {
+  "id": "v0110",
+  "name": "San Jose Civic",
+  "city": "San Jose",
+  "address": "135 W San Carlos St, San Jose, CA 95113, USA",
+  "lat": 37.3307841,
+  "lng": -121.8896922,
+  "precise": true,
+  "show_count": 4
+ },
+ {
+  "id": "v0111",
+  "name": "Luther Burbank Center",
+  "city": "Santa Rosa",
+  "address": "50 Mark West Springs Rd #500, Santa Rosa, CA 95403, USA",
+  "lat": 38.4932027,
+  "lng": -122.7495377,
+  "precise": true,
+  "show_count": 2
+ },
+ {
+  "id": "v0112",
+  "name": "Knot Club",
+  "city": "Richmond",
+  "address": "1900 Stenmark Dr, Richmond, CA 94801, USA",
+  "lat": 37.9622823,
+  "lng": -122.4188214,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0113",
+  "name": "Quarry Amphitheater",
+  "city": "Santa Cruz",
+  "address": "Upper Quarry Amphitheater, Santa Cruz, CA 95064, USA",
+  "lat": 36.9986293,
+  "lng": -122.0564892,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0114",
+  "name": "El Rio",
+  "city": "S.F.",
+  "address": "3158 Mission St, San Francisco, CA 94110, USA",
+  "lat": 37.746794,
+  "lng": -122.419409,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0115",
+  "name": "Outside Lands (Golden Gate Park)",
+  "city": "SF",
+  "address": "Golden Gate Park, San Francisco, CA, USA",
+  "lat": 37.7689203,
+  "lng": -122.482977,
+  "precise": true,
+  "show_count": 3
+ },
+ {
+  "id": "v0116",
+  "name": "Catalyst Atrium",
+  "city": "Santa Cruz",
+  "address": "1011 Pacific Ave, Santa Cruz, CA 95060, USA",
+  "lat": 36.9713188,
+  "lng": -122.0258811,
+  "precise": true,
+  "show_count": 2
+ },
+ {
+  "id": "v0117",
+  "name": "Above DNA Lounge",
+  "city": "S.F.",
+  "address": "375 11th St, San Francisco, CA 94103, USA",
+  "lat": 37.7711099,
+  "lng": -122.4127726,
+  "precise": true,
+  "show_count": 2
+ },
+ {
+  "id": "v0118",
+  "name": "Gundlach Bundschu Winery",
+  "city": "Sonoma",
+  "address": "2000 Denmark St, Sonoma, CA 95476, USA",
+  "lat": 38.2807396,
+  "lng": -122.4171519,
+  "precise": true,
+  "show_count": 2
+ },
+ {
+  "id": "v0121",
+  "name": "Spats",
+  "city": "Berkeley",
+  "address": "1974 Shattuck Ave, Berkeley, CA 94704, USA",
+  "lat": 37.8726497,
+  "lng": -122.2687563,
+  "precise": true,
+  "show_count": 2
+ },
+ {
+  "id": "v0122",
+  "name": "Pizza Place, 3901 Noriega Street",
+  "city": "S.F.",
+  "address": "3901 Noriega St, San Francisco, CA 94122, USA",
+  "lat": 37.7527499,
+  "lng": -122.5056443,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0123",
+  "name": "Natural, 3rd & Brannan",
+  "city": "S.F.",
+  "address": "S.F.",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 2
+ },
+ {
+  "id": "v0125",
+  "name": "Davies Symphony Hall, 201 Van Ness Ave.",
+  "city": "S.F.",
+  "address": "201 Van Ness Ave, San Francisco, CA 94102, USA",
+  "lat": 37.7775104,
+  "lng": -122.4207115,
+  "precise": true,
+  "show_count": 3
+ },
+ {
+  "id": "v0126",
+  "name": "Lost Church",
+  "city": "S.F.",
+  "address": "988 Columbus Ave, San Francisco, CA 94133, USA",
+  "lat": 37.8033528,
+  "lng": -122.4142929,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0127",
+  "name": "Giant's Ball Park",
+  "city": "S.F.",
+  "address": "24 Willie Mays Plaza, San Francisco, CA 94107, USA",
+  "lat": 37.7783654,
+  "lng": -122.3899162,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0128",
+  "name": "Fruit Yard Amphitheater, 7948 Yosemite Blvd",
+  "city": "Modesto",
+  "address": "7948 Yosemite Blvd, Modesto, CA 95357, USA",
+  "lat": 37.6375386,
+  "lng": -120.8509241,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0129",
+  "name": "Creek Park, 634 San Anselmo Avenue",
+  "city": "San Anselmo",
+  "address": "634 San Anselmo Ave, San Anselmo, CA 94960, USA",
+  "lat": 37.9761004,
+  "lng": -122.56265,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0130",
+  "name": "Blue Note",
+  "city": "Napa",
+  "address": "850 Bordeaux Way, Napa, CA 94559, USA",
+  "lat": 38.2469926,
+  "lng": -122.2740121,
+  "precise": true,
+  "show_count": 2
+ },
+ {
+  "id": "v0131",
+  "name": "California Theater, 345 South First Street",
+  "city": "San Jose",
+  "address": "345 S 1st St, San Jose, CA 95113, USA",
+  "lat": 37.3306801,
+  "lng": -121.8869386,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0132",
+  "name": "Mayes Oyster House, 1233 Polk Street",
+  "city": "S.F.",
+  "address": "1233 Polk St, San Francisco, CA 94109, USA",
+  "lat": 37.7883035,
+  "lng": -122.4204437,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0133",
+  "name": "Old Western Saloon, 11201 State CA-1",
+  "city": "Point Reyes Station",
+  "address": "11201 CA-1, Point Reyes Station, CA 94956, USA",
+  "lat": 38.0676095,
+  "lng": -122.8055455,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0134",
+  "name": "Rio Nido Roadhouse, 14540 Canyon 2 Road",
+  "city": "Rio Nido",
+  "address": "14540 Canyon 2 Rd, Rio Nido, CA 95471, USA",
+  "lat": 38.5204847,
+  "lng": -122.9785673,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0135",
+  "name": "Catalyst",
+  "city": "Santa Cruz",
+  "address": "1011 Pacific Ave, Santa Cruz, CA 95060, USA",
+  "lat": 36.9713188,
+  "lng": -122.0258811,
+  "precise": true,
+  "show_count": 5
+ },
+ {
+  "id": "v0136",
+  "name": "Mountain Theater, East Ridgecrest Blvd.",
+  "city": "Mount Tamalpais",
+  "address": "Easy Grade Trail, Mill Valley, CA 94941, USA",
+  "lat": 37.9127055,
+  "lng": -122.6087542,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0137",
+  "name": "Great Star Theater, 636 Jackson St.",
+  "city": "S.F.",
+  "address": "636 Jackson St, San Francisco, CA 94133, USA",
+  "lat": 37.7962028,
+  "lng": -122.4058773,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0138",
+  "name": "Paramount Theater",
+  "city": "Oakland",
+  "address": "2025 Broadway, Oakland, CA 94612, USA",
+  "lat": 37.8097055,
+  "lng": -122.2682219,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0139",
+  "name": "Frost Amphitheater",
+  "city": "Stanford Campus",
+  "address": "351 Lasuen St, Stanford, CA 94305, USA",
+  "lat": 37.4307223,
+  "lng": -122.1660268,
+  "precise": true,
+  "show_count": 5
+ },
+ {
+  "id": "v0140",
+  "name": "Discovery Meadow",
+  "city": "San Jose",
+  "address": "180 Woz Way, San Jose, CA 95110, USA",
+  "lat": 37.3277419,
+  "lng": -121.8923366,
+  "precise": true,
+  "show_count": 2
+ },
+ {
+  "id": "v0141",
+  "name": "Pier 80",
+  "city": "S.F.",
+  "address": "401 Cesar Chavez St, San Francisco, CA 94124, USA",
+  "lat": 37.7502132,
+  "lng": -122.3801194,
+  "precise": true,
+  "show_count": 2
+ },
+ {
+  "id": "v0142",
+  "name": "Pacifica's Fogfist Parade",
+  "city": "Pacifica",
+  "address": "Pacifica Municipal Pier, Pacifica, CA 94044, USA",
+  "lat": 37.6333838,
+  "lng": -122.4949154,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0143",
+  "name": "Swedish American Hall",
+  "city": "S.F.",
+  "address": "2174 Market St, San Francisco, CA 94114, USA",
+  "lat": 37.7667207,
+  "lng": -122.4305438,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0144",
+  "name": "Gray Area",
+  "city": "S.F.",
+  "address": "2665 Mission St, San Francisco, CA 94110, USA",
+  "lat": 37.7543922,
+  "lng": -122.4185027,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0145",
+  "name": "Point San Pablo Harbor, 1900 Stenmark Drive",
+  "city": "Richmond",
+  "address": "1900 Stenmark Dr, Richmond, CA 94801, USA",
+  "lat": 37.9622823,
+  "lng": -122.4188214,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0146",
+  "name": "Midway",
+  "city": "S.F.",
+  "address": "900 Marin St, San Francisco, CA 94124, USA",
+  "lat": 37.7492774,
+  "lng": -122.3856944,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0147",
+  "name": "Gilman Brewing Co., 912 Gilman Street",
+  "city": "Berkeley",
+  "address": "912 Gilman St, Berkeley, CA 94710, USA",
+  "lat": 37.8794811,
+  "lng": -122.2998406,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0148",
+  "name": "Cow Palace",
+  "city": "Daily City",
+  "address": "2600 Geneva Ave, Daly City, CA 94014, USA",
+  "lat": 37.706997,
+  "lng": -122.4196491,
+  "precise": true,
+  "show_count": 4
+ },
+ {
+  "id": "v0149",
+  "name": "Henry J Kaiser Center",
+  "city": "Oakland",
+  "address": "Kaiser Convention Center, Oakland, CA 94607, USA",
+  "lat": 37.7976328,
+  "lng": -122.2615979,
+  "precise": true,
+  "show_count": 2
+ },
+ {
+  "id": "v0150",
+  "name": "Palace of Fine Arts",
+  "city": "S.F.",
+  "address": "3301 Lyon St, San Francisco, CA 94123, USA",
+  "lat": 37.8029308,
+  "lng": -122.4484231,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v0144",
+  "name": "Civic Center",
+  "city": "S.F.",
+  "address": "2665 Mission St, San Francisco, CA 94110, USA",
+  "lat": 37.7543922,
+  "lng": -122.4185027,
+  "precise": true,
+  "show_count": 1
+ },
+ {
+  "id": "v9999",
+  "name": "(venue not listed)",
+  "city": "S.F.",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ }
+]
