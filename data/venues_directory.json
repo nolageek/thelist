@@ -1,0 +1,1289 @@
+[
+  {
+    "name": "Almanac Brewery",
+    "address": "651 West Tower Ave",
+    "city": "Alameda",
+    "phone": "415-922-3438",
+    "email": "info@almanacbeer.com"
+  },
+  {
+    "name": "Cinema Grill",
+    "address": "2301 Central Ave",
+    "city": "Alameda",
+    "email": "event@alamedatheatres.com"
+  },
+  {
+    "name": "Faction Brewing",
+    "address": "2501 Monarch St",
+    "city": "Alameda",
+    "phone": "510-523-2739",
+    "email": "info@FactionBrewing.com"
+  },
+  {
+    "name": "Fireside Lounge",
+    "address": "1453 Webster St",
+    "city": "Alameda",
+    "phone": "510-864-1244"
+  },
+  {
+    "name": "The Local",
+    "address": "1333 Park St",
+    "city": "Alameda",
+    "phone": "510-347-8388",
+    "email": "The.local.alameda@gmail.com"
+  },
+  {
+    "name": "Hotsy Totsy Club",
+    "address": "601 San Pablo Ave",
+    "city": "Albany",
+    "website": "facebook.com/hotsytotsyclub",
+    "email": "info@hotsytotsyclub.com",
+    "phone": "510-526-5986"
+  },
+  {
+    "name": "Ivy Room",
+    "address": "860 San Pablo Ave",
+    "city": "Albany",
+    "email": "booking@ivyroom.com",
+    "phone": "510-526-5888"
+  },
+  {
+    "name": "Backyard Hideout",
+    "address": "",
+    "city": "Antioch",
+    "website": "facebook.com/TheBackyardHideout",
+    "email": "TheBackyardHideout@gmail.com"
+  },
+  {
+    "name": "Monica's Riverview",
+    "address": "1 I Street",
+    "city": "Antioch",
+    "website": "visitmonicas.com",
+    "phone": "925-757-2272"
+  },
+  {
+    "name": "Smith's Landing Seafood Grill",
+    "address": "1 Marina Plaza",
+    "city": "Antioch",
+    "website": "smithslandingantioch.com",
+    "email": "contactus@smithslandingantioch.com"
+  },
+  {
+    "name": "Tailgaters",
+    "address": "4605 Golf Course Road",
+    "city": "Antioch",
+    "website": "tailgaterssportsbars.com",
+    "email": "tailgaters@rocketmail.com",
+    "phone": "925-754-2277"
+  },
+  {
+    "name": "Lucca Bar & Grill",
+    "address": "439 1st Street",
+    "city": "Benicia",
+    "phone": "707-745-3749",
+    "website": "luccabar.com"
+  },
+  {
+    "name": "924 Gilman",
+    "address": "924 Gilman St",
+    "city": "Berkeley",
+    "website": "linktr.ee/924gilmanstreet"
+  },
+  {
+    "name": "Berkeley Art House Gallery",
+    "address": "2905 Shattuck Ave",
+    "city": "Berkeley",
+    "website": "berkeleyarthouse.wordpress.com",
+    "email": "arthouse2905@gmail.com",
+    "phone": "510-472-3170"
+  },
+  {
+    "name": "Cornerstone",
+    "address": "2367 Shattuck Ave",
+    "city": "Berkeley",
+    "website": "cornerstoneberkeley.com",
+    "email": "bookings.cornerstoneberkeley@gmail.com",
+    "phone": "510-214-8600"
+  },
+  {
+    "name": "Fifth Street Farms",
+    "address": "1517 Fifth Street",
+    "city": "Berkeley",
+    "phone": "510-525-9248",
+    "email": "fifthstfarms@gmail.com",
+    "website": "fifthstfarms.com"
+  },
+  {
+    "name": "Freight and Salvage",
+    "address": "2020 Addison St",
+    "city": "Berkeley",
+    "website": "thefreight.org"
+  },
+  {
+    "name": "Jupiter Pizza and Brewery",
+    "address": "2181 Shattuck Avenue",
+    "city": "Berkeley",
+    "website": "jupiterbeer.com",
+    "email": "music@jupiterbeer.com",
+    "phone": "510-843-8277"
+  },
+  {
+    "name": "The Back Room",
+    "address": "1984 Bonita Ave",
+    "city": "Berkeley",
+    "phone": "510-654-3808",
+    "website": "backroommusic.com"
+  },
+  {
+    "name": "The Break Room",
+    "address": "",
+    "city": "Berkeley",
+    "website": "breakroomberkeley.com",
+    "email": "thebreakroomberkeley@gmail.com",
+    "phone": "925-209-9173"
+  },
+  {
+    "name": "The Monkey House",
+    "address": "1638 University Ave",
+    "city": "Berkeley",
+    "website": "themonkeyhouse.org"
+  },
+  {
+    "name": "The Starry Plough",
+    "address": "3101 Shattuck Ave",
+    "city": "Berkeley",
+    "website": "thestarryplough.com",
+    "phone": "510-841-0188"
+  },
+  {
+    "name": "Bloomfield Vineyards",
+    "address": "633 1st Street",
+    "city": "Brentwood",
+    "website": "bloomfieldvineyards.com",
+    "phone": "925-783-0050"
+  },
+  {
+    "name": "Brentwood Emporium",
+    "address": "561 1st St",
+    "city": "Brentwood",
+    "website": "brentwoodemporium.net",
+    "email": "Brentwoodemporium@gmail.com",
+    "phone": "916-606-1415"
+  },
+  {
+    "name": "CoCo County Wine Company",
+    "address": "633 1st St",
+    "city": "Brentwood",
+    "phone": "925-634-9463",
+    "website": "cocowineco.com"
+  },
+  {
+    "name": "Crown & Crow",
+    "address": "613 1st St",
+    "city": "Brentwood",
+    "phone": "925-684-7489",
+    "website": "crownandcrow.shopsettings.com"
+  },
+  {
+    "name": "Little Lou's BBQ",
+    "address": "2455 Winchester Blvd",
+    "city": "Campbell",
+    "phone": "408-796-7852",
+    "website": "littlelousbbq.com",
+    "notes": "Built-in sound system, Parking Lot, Weekly Blues Jam Thursdays 6-9pm"
+  },
+  {
+    "name": "The Cedar Room",
+    "address": "1875 S Bascom Ave",
+    "city": "Campbell",
+    "phone": "408-705-4664",
+    "website": "cedarroomlive.com",
+    "notes": "Parking Lot"
+  },
+  {
+    "name": "Captain's Chest Cocktail Lounge",
+    "address": "785 Oak Grove Rd",
+    "city": "Concord",
+    "phone": "925-687-2800",
+    "website": "facebook.com/cchest5"
+  },
+  {
+    "name": "Clayton Valley Bowl",
+    "address": "5300 Clayton Rd",
+    "city": "Concord",
+    "phone": "925-689-4631",
+    "website": "claytonvalleybowl.com"
+  },
+  {
+    "name": "Concord Tap House",
+    "address": "3513 Clayton Rd",
+    "city": "Concord",
+    "phone": "925-685-8585",
+    "website": "concordtaphouse.com"
+  },
+  {
+    "name": "Legends at Diablo Creek",
+    "address": "4050 Port Chicago Hwy",
+    "city": "Concord",
+    "phone": "925-687-4111",
+    "website": "legendsdiablocreek.com"
+  },
+  {
+    "name": "Nica Lounge",
+    "address": "1907 Salvio St",
+    "city": "Concord",
+    "phone": "925-446-4434",
+    "website": "nicalounge.com"
+  },
+  {
+    "name": "Red Hat",
+    "address": "1860 Monument Blvd",
+    "city": "Concord",
+    "phone": "925-685-2122",
+    "website": "facebook.com/redhatsportsbar"
+  },
+  {
+    "name": "Side Gate Brewery & Beer Garden",
+    "address": "1822 Grant St",
+    "city": "Concord",
+    "website": "sidegatebrewing.com"
+  },
+  {
+    "name": "The Office Cocktail Lounge",
+    "address": "1796 Willow Pass Rd",
+    "city": "Concord",
+    "phone": "925-686-0100",
+    "website": "facebook.com/TheOfficeConcord"
+  },
+  {
+    "name": "Vinnie's Bar",
+    "address": "2045 Mt Diablo St",
+    "city": "Concord",
+    "website": "vinniesbar.com"
+  },
+  {
+    "name": "Toot's Tavern",
+    "address": "627 2nd Ave",
+    "city": "Crockett",
+    "phone": "510-787-9860",
+    "website": "tootstavern.com"
+  },
+  {
+    "name": "Auburn Lounge",
+    "address": "321 Hartz Ave",
+    "city": "Danville",
+    "website": "auburnlounge.com",
+    "email": "info@auburnlounge.com",
+    "phone": "925-984-2947"
+  },
+  {
+    "name": "Cocina Hermanas",
+    "address": "501 Hartz Ave",
+    "city": "Danville",
+    "website": "cocinahermanas.com",
+    "email": "info@cocinahermanas.com",
+    "phone": "925-725-4161"
+  },
+  {
+    "name": "Fat Maddie's",
+    "address": "3483 Blackhawk Plaza Circle",
+    "city": "Danville",
+    "website": "fatmaddies.com",
+    "email": "Fatmaddiesgrille@gmail.com",
+    "phone": "925-309-4752"
+  },
+  {
+    "name": "Meenar Music Club",
+    "address": "349 Hartz Ave #3307",
+    "city": "Danville",
+    "email": "stacy@meenar.net"
+  },
+  {
+    "name": "Norm's Place",
+    "address": "356 Hartz Ave",
+    "city": "Danville",
+    "website": "normsgrille.com",
+    "email": "events@normsgrille.com",
+    "phone": "925-552-6676"
+  },
+  {
+    "name": "Mac's 19 Broadway",
+    "address": "19 Broadway",
+    "city": "Fairfax",
+    "phone": "415-785-7254",
+    "website": "macsat19broadway.com",
+    "email": "runawaydjbayarea@gmail.com"
+  },
+  {
+    "name": "Peris Tavern",
+    "address": "29 Broadway Blvd",
+    "city": "Fairfax",
+    "phone": "415-717-5224",
+    "website": "peristavern.com",
+    "email": "booking@peristavern.com"
+  },
+  {
+    "name": "Suisun Valley Filling Station",
+    "address": "2529 Mankas Corner Rd",
+    "city": "Fairfield",
+    "phone": "707-863-1555",
+    "website": "suisunvalleyfillingstation.com"
+  },
+  {
+    "name": "Federicos Grill",
+    "address": "37805 Niles Blvd",
+    "city": "Fremont",
+    "phone": "510-320-5354",
+    "website": "federicos-grill.com",
+    "notes": "Live music Thursdays 6:30-8:30pm"
+  },
+  {
+    "name": "The Bistro",
+    "address": "1001 B Street",
+    "city": "Hayward",
+    "phone": "510-833-3470",
+    "website": "the-bistro.com"
+  },
+  {
+    "name": "Coyote Sonoma",
+    "address": "44F Mill Street",
+    "city": "Healdsburg",
+    "phone": "707-433-4444",
+    "website": "coyotesonoma.com"
+  },
+  {
+    "name": "25 Tap Craft Beer",
+    "address": "25 S Livermore Ave",
+    "city": "Livermore",
+    "website": "tap-25.com"
+  },
+  {
+    "name": "Almost Famous Wine Company",
+    "address": "2271 S Vasco Road Ste D",
+    "city": "Livermore",
+    "phone": "925-344-5870",
+    "website": "almostfamouswine.com"
+  },
+  {
+    "name": "Beer Baron (Livermore)",
+    "address": "2223 First St",
+    "city": "Livermore",
+    "phone": "925-449-1655",
+    "website": "beerbaronbar.com"
+  },
+  {
+    "name": "Bent Creek Winery",
+    "address": "5455 Greenville Rd",
+    "city": "Livermore",
+    "phone": "925-337-6932",
+    "website": "bentcreekwinery.com"
+  },
+  {
+    "name": "Blacksmith Square",
+    "address": "21 S Livermore Ave",
+    "city": "Livermore",
+    "phone": "925-447-1400"
+  },
+  {
+    "name": "Charles R Winery",
+    "address": "8195 Crane Ridge Rd",
+    "city": "Livermore",
+    "phone": "925-337-3081",
+    "website": "charlesrwinery.com"
+  },
+  {
+    "name": "Del Valle Winery",
+    "address": "4948 Tesla Road",
+    "city": "Livermore",
+    "phone": "925-464-2557",
+    "website": "delvallewinery.com"
+  },
+  {
+    "name": "Dust Bowl Brewing Company",
+    "address": "3034 W Jack London Blvd",
+    "city": "Livermore",
+    "phone": "925-292-8310",
+    "website": "dustbowlbrewing.com"
+  },
+  {
+    "name": "First Street Wine Company",
+    "address": "2211 1st St",
+    "city": "Livermore",
+    "phone": "925-294-5825",
+    "website": "wineco.com"
+  },
+  {
+    "name": "Good Time Tavern",
+    "address": "125 North Livermore Ave",
+    "city": "Livermore",
+    "phone": "925-449-3333"
+  },
+  {
+    "name": "Las Positas Vineyards",
+    "address": "1828 Wetmore Rd",
+    "city": "Livermore",
+    "phone": "925-449-9463",
+    "website": "laspositasvineyards.com"
+  },
+  {
+    "name": "Livermore Valley Wine Co.",
+    "address": "2481 Buena Vista Ave",
+    "city": "Livermore",
+    "website": "livermorevalleywineclub.com"
+  },
+  {
+    "name": "McGrail Vineyards",
+    "address": "5600 Greenville Rd",
+    "city": "Livermore",
+    "phone": "925-215-0717",
+    "website": "mcgrailvineyards.com"
+  },
+  {
+    "name": "Monica's (Livermore)",
+    "address": "2074 Second St",
+    "city": "Livermore",
+    "phone": "925-292-5568",
+    "website": "monicaslivermore.com"
+  },
+  {
+    "name": "Murrieta's Well",
+    "address": "3005 Mines Rd",
+    "city": "Livermore",
+    "phone": "925-456-2395",
+    "website": "murrietaswell.com"
+  },
+  {
+    "name": "Pine Street Bar",
+    "address": "875 Rincon Ave",
+    "city": "Livermore",
+    "phone": "925-606-8266"
+  },
+  {
+    "name": "R-Place Music Club",
+    "address": "2562 Old First St",
+    "city": "Livermore",
+    "phone": "925-294-9693"
+  },
+  {
+    "name": "Rivers End Brewing",
+    "address": "2135 South Vasco Rd",
+    "city": "Livermore",
+    "website": "linktr.ee/riversendbrewingcompany"
+  },
+  {
+    "name": "Swirl on the Square",
+    "address": "21 S. Livermore Ave #105",
+    "city": "Livermore",
+    "phone": "925-922-6165",
+    "website": "swirlonthesq.com"
+  },
+  {
+    "name": "Wente Vineyards",
+    "address": "5050 Arroyo Road",
+    "city": "Livermore",
+    "phone": "925-456-2300",
+    "website": "wentevineyards.com"
+  },
+  {
+    "name": "Gardino's",
+    "address": "51 N Santa Cruz Ave",
+    "city": "Los Gatos",
+    "phone": "408-354-8788",
+    "website": "gardinoslg.com"
+  },
+  {
+    "name": "Number 1 Broadway",
+    "address": "102 S. Santa Cruz Ave",
+    "city": "Los Gatos",
+    "phone": "408-560-9460",
+    "website": "number1broadway.com"
+  },
+  {
+    "name": "Luigi's Deli",
+    "address": "537 Main St",
+    "city": "Martinez",
+    "phone": "925-229-8920",
+    "website": "luigisdelimartinez.com",
+    "notes": "Small PA, Dedicated Musician Parking"
+  },
+  {
+    "name": "Market & Main",
+    "address": "610 Main St",
+    "city": "Martinez",
+    "website": "marketandmainmartinez.com",
+    "email": "marketandmain610@gmail.com"
+  },
+  {
+    "name": "Nu-Rays Bar",
+    "address": "709 Ferry St",
+    "city": "Martinez",
+    "phone": "925-370-7090",
+    "website": "nu-rays.net"
+  },
+  {
+    "name": "Roxx on Main",
+    "address": "627 Main St",
+    "city": "Martinez",
+    "phone": "925-370-7699",
+    "website": "roxxonmain.com",
+    "email": "booking@RoxxOnMain.com"
+  },
+  {
+    "name": "Neighborhood Pizza & Cafe Zoe",
+    "address": "1929 Menalto Ave",
+    "city": "Menlo Park",
+    "phone": "650-407-7476",
+    "website": "neighborhood.pizza"
+  },
+  {
+    "name": "Sweetwater Music Hall",
+    "address": "19 Corte Madera Ave",
+    "city": "Mill Valley",
+    "phone": "415-388-3850",
+    "website": "sweetwatermusichall.com",
+    "email": "booking@swmh.com"
+  },
+  {
+    "name": "Bubbles and Brew",
+    "address": "17105 Monterey Hwy",
+    "city": "Morgan Hill",
+    "phone": "408-779-8800",
+    "website": "bubblesandbrewmorganhill.com",
+    "email": "jess.bubblesandbrew@gmail.com"
+  },
+  {
+    "name": "Kelly Brewing Company",
+    "address": "70 E 4th Street",
+    "city": "Morgan Hill",
+    "phone": "669-258-5900",
+    "website": "kellybrewco.com"
+  },
+  {
+    "name": "Downtown Joe's",
+    "address": "902 Main St",
+    "city": "Napa",
+    "phone": "707-258-2337",
+    "website": "downtownjoes.com",
+    "email": "info@downtownjoes.com"
+  },
+  {
+    "name": "Grille 29",
+    "address": "1075 California Blvd",
+    "city": "Napa",
+    "phone": "707-320-9520",
+    "notes": "Embassy Suites by Hilton"
+  },
+  {
+    "name": "Jam Cellars",
+    "address": "1460 First St",
+    "city": "Napa",
+    "phone": "707-265-7577",
+    "website": "jamcellars.com"
+  },
+  {
+    "name": "Levendi Winery Tasting Room",
+    "address": "1465 First St",
+    "city": "Napa",
+    "phone": "707-699-2306",
+    "website": "levendiwinery.com"
+  },
+  {
+    "name": "Napa Palisades Saloon",
+    "address": "1000 Main St #100",
+    "city": "Napa",
+    "phone": "707-492-3399",
+    "website": "napapalisades.com"
+  },
+  {
+    "name": "Napa Sport Steakhouse",
+    "address": "145 Gasser Drive Suite A",
+    "city": "Napa",
+    "phone": "707-927-5956",
+    "website": "napasportsteakhouse.com"
+  },
+  {
+    "name": "Napa Valley Distillery",
+    "address": "2465 Stockton St",
+    "city": "Napa",
+    "website": "napadistillery.com"
+  },
+  {
+    "name": "River Terrace Inn",
+    "address": "1600 Soscol Ave",
+    "city": "Napa",
+    "phone": "707-927-2217",
+    "website": "riverterraceinn.com"
+  },
+  {
+    "name": "Sky & Vine",
+    "address": "1260 1st St",
+    "city": "Napa",
+    "website": "skyandvine.com"
+  },
+  {
+    "name": "The Blue Note Napa",
+    "address": "1030 Main St",
+    "city": "Napa",
+    "phone": "707-880-2300",
+    "website": "bluenotejazz.com/napa"
+  },
+  {
+    "name": "The Fink",
+    "address": "530 Main St",
+    "city": "Napa",
+    "phone": "707-266-5940",
+    "website": "thefinknapa.com"
+  },
+  {
+    "name": "The Hollywood Room",
+    "address": "2485 Stockton St",
+    "city": "Napa",
+    "phone": "707-265-6272",
+    "website": "napadistillery.com",
+    "email": "Damian@napadistillery.com"
+  },
+  {
+    "name": "Uptown Theatre Napa",
+    "address": "1350 3rd St",
+    "city": "Napa",
+    "phone": "707-259-0123",
+    "website": "uptowntheatrenapa.com"
+  },
+  {
+    "name": "Bistro 880",
+    "address": "39900 Balentine Dr",
+    "city": "Newark",
+    "phone": "510-413-2300",
+    "notes": "Nice stage"
+  },
+  {
+    "name": "Swiss Park",
+    "address": "5911 Mowry Ave",
+    "city": "Newark",
+    "phone": "510-793-6272",
+    "website": "swissparknewark.com"
+  },
+  {
+    "name": "Rancho Nicasio",
+    "address": "1 Old Rancheria Rd",
+    "city": "Nicasio",
+    "phone": "415-662-2219",
+    "website": "ranchonicasio.com"
+  },
+  {
+    "name": "Golden Gate Bistro",
+    "address": "7380 Redwood Blvd",
+    "city": "Novato",
+    "phone": "415-408-3333",
+    "website": "goldengatebistronovato.com"
+  },
+  {
+    "name": "Beer Baron (Oakland)",
+    "address": "5900 College Ave",
+    "city": "Oakland",
+    "phone": "510-338-3464",
+    "website": "beerbaronbar.com"
+  },
+  {
+    "name": "Cafe Van Kleef",
+    "address": "1621 Telegraph Ave",
+    "city": "Oakland",
+    "phone": "510-763-7711",
+    "website": "cafevankleef.com",
+    "email": "cafevankleefinfo@gmail.com"
+  },
+  {
+    "name": "Continental Club",
+    "address": "1658 12th St",
+    "city": "Oakland",
+    "website": "oaklandcontinentalclub.com",
+    "email": "info@oaklandcontinentalclub.com"
+  },
+  {
+    "name": "Couchdate",
+    "address": "102 Frank Ogawa Plaza",
+    "city": "Oakland",
+    "phone": "408-807-0449",
+    "website": "couchdate.org"
+  },
+  {
+    "name": "Crybaby",
+    "address": "1928 Telegraph Ave",
+    "city": "Oakland",
+    "website": "crybaby.live",
+    "notes": "formerly The Uptown"
+  },
+  {
+    "name": "Elbo Room",
+    "address": "311 Broadway",
+    "city": "Oakland",
+    "website": "elboroomjacklondon.com"
+  },
+  {
+    "name": "Eli's Mile High Club",
+    "address": "3629 Martin Luther King Jr Way",
+    "city": "Oakland",
+    "phone": "510-808-7565",
+    "website": "elismilehigh.com"
+  },
+  {
+    "name": "Piedmont Piano",
+    "address": "1728 San Pablo Ave",
+    "city": "Oakland",
+    "phone": "510-547-8188",
+    "website": "piedmontpiano.com",
+    "email": "music@piedmontpiano.com",
+    "notes": "Genre: Classical & Jazz"
+  },
+  {
+    "name": "The Sound Room",
+    "address": "2147 Broadway",
+    "city": "Oakland",
+    "phone": "510-496-4180",
+    "website": "soundroom.org",
+    "notes": "Genre: Jazz"
+  },
+  {
+    "name": "Wyldflowr Arts",
+    "address": "809 37th Street",
+    "city": "Oakland",
+    "phone": "510-842-5055",
+    "website": "wyldflowrarts.com"
+  },
+  {
+    "name": "Chit Chat Cafe",
+    "address": "5 West Manor Drive",
+    "city": "Pacifica",
+    "phone": "650-738-2380",
+    "website": "chitchatpacifica.com"
+  },
+  {
+    "name": "The Longboard",
+    "address": "180 Eureka Dr",
+    "city": "Pacifica",
+    "notes": "Monthly Blues Jam"
+  },
+  {
+    "name": "Winters Tavern",
+    "address": "1522 Francisco Blvd",
+    "city": "Pacifica",
+    "website": "winterstavern.com",
+    "email": "winterspacifica@gmail.com"
+  },
+  {
+    "name": "Penngrove Pub",
+    "address": "10005 Main Street",
+    "city": "Penngrove",
+    "phone": "707-992-0121",
+    "website": "thepennegovepub.com"
+  },
+  {
+    "name": "Mystic Theatre",
+    "address": "23 Petaluma Blvd N",
+    "city": "Petaluma",
+    "phone": "707-765-2121",
+    "website": "mystictheatre.com"
+  },
+  {
+    "name": "CJ's Saloon",
+    "address": "548 Contra Costa Blvd",
+    "city": "Pleasant Hill",
+    "phone": "925-825-3834",
+    "website": "cjsbar.com"
+  },
+  {
+    "name": "Club Fox",
+    "address": "2209 Broadway",
+    "city": "Redwood City",
+    "phone": "831-334-1153",
+    "website": "clubfoxrwc.com",
+    "notes": "Built-in sound system, Parking garage"
+  },
+  {
+    "name": "The Hub",
+    "address": "2650 Broadway",
+    "city": "Redwood City",
+    "website": "thehubrwc.com"
+  },
+  {
+    "name": "Baltic Kiss",
+    "address": "135 Park Place",
+    "city": "Richmond",
+    "website": "baltickiss.com",
+    "notes": "Parking lot"
+  },
+  {
+    "name": "Sailing Goat",
+    "address": "1900 Stenmark Drive",
+    "city": "Richmond",
+    "phone": "510-847-7426",
+    "website": "sailinggoatrestaurant.com",
+    "notes": "Parking Lot"
+  },
+  {
+    "name": "Balboa Cafe",
+    "address": "3199 Fillmore St",
+    "city": "S.F.",
+    "website": "balboacafe.com"
+  },
+  {
+    "name": "Bazaar Cafe",
+    "address": "5927 California St",
+    "city": "S.F.",
+    "phone": "415-831-5620",
+    "website": "bazaarcafe.com"
+  },
+  {
+    "name": "Bender's Bar and Grill",
+    "address": "806 S Van Ness Ave",
+    "city": "S.F.",
+    "phone": "415-824-1800",
+    "website": "bendersbar.com"
+  },
+  {
+    "name": "Bird & Beckett Books & Records",
+    "address": "653 Chenery St",
+    "city": "S.F.",
+    "phone": "415-586-3733",
+    "website": "birdbeckett.com",
+    "notes": "Genre: Jazz"
+  },
+  {
+    "name": "Boom Boom Room",
+    "address": "1601 Fillmore St",
+    "city": "S.F.",
+    "phone": "415-673-8000",
+    "website": "boomboomroom.com"
+  },
+  {
+    "name": "Bottom of the Hill",
+    "address": "1233 17th St",
+    "city": "S.F.",
+    "website": "bottomofthehill.com",
+    "email": "email@bottomofthehill.com"
+  },
+  {
+    "name": "Brick & Mortar Music Hall",
+    "address": "710 Mission St",
+    "city": "S.F.",
+    "phone": "415-817-1479",
+    "email": "booking@brickandmortarmusic.org"
+  },
+  {
+    "name": "Brickhouse Bar & Grill",
+    "address": "426 Brannan St",
+    "city": "S.F.",
+    "phone": "415-369-0222",
+    "website": "brickhousesf.com"
+  },
+  {
+    "name": "Cafe Du Nord / Swedish American Hall",
+    "address": "",
+    "city": "S.F."
+  },
+  {
+    "name": "Edinburgh Castle Pub",
+    "address": "950 Geary St",
+    "city": "S.F.",
+    "website": "edinburghcastlepub.com"
+  },
+  {
+    "name": "El Rio",
+    "address": "3158 Mission St",
+    "city": "S.F.",
+    "website": "elriosf.com",
+    "email": "elriosflive@gmail.com"
+  },
+  {
+    "name": "Finnegans Wake",
+    "address": "937 Cole St",
+    "city": "S.F.",
+    "phone": "415-731-6119",
+    "website": "finneganssf.com"
+  },
+  {
+    "name": "Great American Music Hall",
+    "address": "859 O'Farrell St",
+    "city": "S.F.",
+    "phone": "415-885-0750",
+    "website": "gamh.com"
+  },
+  {
+    "name": "Green Room",
+    "address": "401 Van Ness Ave",
+    "city": "S.F.",
+    "website": "sfwarmemorial.org/the-green-room"
+  },
+  {
+    "name": "Harmonic Brewing (26th Street)",
+    "address": "1050 26th St",
+    "city": "S.F.",
+    "website": "harmonicbrewing.com"
+  },
+  {
+    "name": "Harmonic Brewing (Thrive City)",
+    "address": "7 Warriors Way Suite 206",
+    "city": "S.F.",
+    "website": "harmonicbrewing.com"
+  },
+  {
+    "name": "Hotel Utah",
+    "address": "500 4th St",
+    "city": "S.F.",
+    "phone": "415-546-6300",
+    "website": "hotelutah.com"
+  },
+  {
+    "name": "Johnny Foley's",
+    "address": "243 O'Farrell St",
+    "city": "S.F.",
+    "phone": "415-954-0777",
+    "website": "johnnyfoleys.com"
+  },
+  {
+    "name": "Kilowatt",
+    "address": "3160 16th St",
+    "city": "S.F.",
+    "phone": "415-861-2595",
+    "website": "kilowattbar.com"
+  },
+  {
+    "name": "Maggie McGarry's",
+    "address": "1353 Grant Ave",
+    "city": "S.F.",
+    "phone": "415-399-9020",
+    "website": "maggiemcgarrys.com"
+  },
+  {
+    "name": "Make-Out Room",
+    "address": "3225 22nd St",
+    "city": "S.F.",
+    "website": "makeoutroom.com"
+  },
+  {
+    "name": "McTeague's Saloon",
+    "address": "1237 Polk St",
+    "city": "S.F.",
+    "phone": "415-776-1237",
+    "website": "sfmcteagues.com"
+  },
+  {
+    "name": "Mezzanine SF",
+    "address": "444 Jessie St",
+    "city": "S.F.",
+    "website": "mezzaninesf.com"
+  },
+  {
+    "name": "Neck of the Woods",
+    "address": "406 Clement St",
+    "city": "S.F.",
+    "phone": "415-622-7656",
+    "website": "neckofthewoodssf.com"
+  },
+  {
+    "name": "O'Reilly's",
+    "address": "1840 Haight St",
+    "city": "S.F."
+  },
+  {
+    "name": "Peacock Lounge / Gold Room",
+    "address": "552 Haight St",
+    "city": "S.F."
+  },
+  {
+    "name": "Pier 23",
+    "address": "The Embarcadero",
+    "city": "S.F.",
+    "phone": "415-362-5125",
+    "website": "pier23cafe.com"
+  },
+  {
+    "name": "Pitt's Pub",
+    "address": "4207 Judah St",
+    "city": "S.F.",
+    "website": "pittssf.com"
+  },
+  {
+    "name": "Recovery Room",
+    "address": "4528 Mission St",
+    "city": "S.F.",
+    "website": "recoveryroomsf.com"
+  },
+  {
+    "name": "Red Poppy Art House",
+    "address": "2698 Folsom St",
+    "city": "S.F.",
+    "phone": "650-731-5383",
+    "website": "redpoppyarthouse.org"
+  },
+  {
+    "name": "Rickshaw Stop",
+    "address": "155 Fell St",
+    "city": "S.F.",
+    "phone": "415-861-2011",
+    "website": "rickshawstop.com"
+  },
+  {
+    "name": "Savoy Tivoli",
+    "address": "1434 Grant Ave",
+    "city": "S.F.",
+    "phone": "415-970-6901",
+    "website": "savoytivoli.com"
+  },
+  {
+    "name": "The Chapel",
+    "address": "777 Valencia St",
+    "city": "S.F.",
+    "website": "thechapelsf.com"
+  },
+  {
+    "name": "The Fillmore",
+    "address": "1805 Geary Blvd",
+    "city": "S.F.",
+    "phone": "415-346-6000",
+    "website": "livenation.com"
+  },
+  {
+    "name": "The Hemlock",
+    "address": "1131 Polk St",
+    "city": "S.F.",
+    "website": "thehemlocksf.com"
+  },
+  {
+    "name": "The Independent",
+    "address": "628 Divisadero St",
+    "city": "S.F.",
+    "phone": "415-771-1421",
+    "website": "theindependentsf.com"
+  },
+  {
+    "name": "The Knockout",
+    "address": "3223 Mission St",
+    "city": "S.F.",
+    "website": "theknockoutsf.com"
+  },
+  {
+    "name": "The Lost Church",
+    "address": "",
+    "city": "S.F.",
+    "website": "thelostchurch.org",
+    "email": "booking@thelostchurch.org"
+  },
+  {
+    "name": "The Riptide",
+    "address": "3639 Taraval St",
+    "city": "S.F.",
+    "phone": "415-681-8433",
+    "website": "riptidesf.com"
+  },
+  {
+    "name": "The Saloon",
+    "address": "1232 Grant Ave",
+    "city": "S.F.",
+    "phone": "415-989-7666",
+    "website": "thesaloonsf.com"
+  },
+  {
+    "name": "The Warfield",
+    "address": "982 Market St",
+    "city": "S.F.",
+    "website": "thewarfieldtheatre.com"
+  },
+  {
+    "name": "Tupelo",
+    "address": "1337 Grant Ave",
+    "city": "S.F.",
+    "website": "tupelosf.com",
+    "email": "tupelosf@gmail.com"
+  },
+  {
+    "name": "Willkommen / Black Hammer Brewing",
+    "address": "2198 Market St",
+    "city": "S.F.",
+    "phone": "415-766-9225",
+    "website": "blackhammerbrewing.com"
+  },
+  {
+    "name": "One Love Cafe",
+    "address": "486 San Mateo Ave",
+    "city": "San Bruno",
+    "phone": "650-636-4125",
+    "website": "1lovecafe.com",
+    "notes": "Parking Lot, Street Parking"
+  },
+  {
+    "name": "Britannia Arms",
+    "address": "5027 Almaden Expressway",
+    "city": "San Jose",
+    "phone": "408-266-0550",
+    "website": "britanniaarms.com"
+  },
+  {
+    "name": "Caravan Lounge",
+    "address": "98 S Almaden Ave",
+    "city": "San Jose",
+    "phone": "408-995-6220",
+    "email": "rachrage1@yahoo.com"
+  },
+  {
+    "name": "Narrative Fermentations",
+    "address": "101 E Alma Ave",
+    "city": "San Jose",
+    "phone": "408-288-5181",
+    "website": "narrativeefermentations.com",
+    "notes": "Sunday Jam session only, Free, Family friendly, parking lot"
+  },
+  {
+    "name": "Poor House Bistro",
+    "address": "317 W Saint John St",
+    "city": "San Jose",
+    "phone": "408-292-5837",
+    "website": "poorhousebistro.com",
+    "notes": "Built-in sound system, Street and lot parking"
+  },
+  {
+    "name": "Sam's BBQ",
+    "address": "1110 S. Bascom Ave",
+    "city": "San Jose",
+    "phone": "408-297-9151",
+    "website": "samsbbq.com",
+    "notes": "Built-in sound system, Parking Lot"
+  },
+  {
+    "name": "San Pedro Square",
+    "address": "San Pedro St @ St. John St",
+    "city": "San Jose",
+    "website": "sanpedrosquaremarket.com",
+    "notes": "Parking Garage, Band loading area"
+  },
+  {
+    "name": "The Old Almaden",
+    "address": "5837 Camden Ave",
+    "city": "San Jose"
+  },
+  {
+    "name": "The Ritz",
+    "address": "400 S 1st Street",
+    "city": "San Jose",
+    "website": "theritzsanjose.com",
+    "email": "Corey@theritzsanjose.com"
+  },
+  {
+    "name": "Woodhams Sports Lounge",
+    "address": "4475 Stevens Creek Blvd",
+    "city": "Santa Clara",
+    "phone": "408-244-2899"
+  },
+  {
+    "name": "Barrel Proof Lounge",
+    "address": "501 Mendocino Ave",
+    "city": "Santa Rosa",
+    "phone": "707-852-2196",
+    "website": "barrelprooflounge.com"
+  },
+  {
+    "name": "True Symmetry Brewing Company",
+    "address": "315 Marina Ctr",
+    "city": "Suisun City",
+    "phone": "707-202-6000",
+    "website": "truesymmetry.beer",
+    "email": "info@truesymmetry.beer"
+  },
+  {
+    "name": "Quarter Note Bar & Grill",
+    "address": "1214 Apollo Way",
+    "city": "Sunnyvale",
+    "phone": "408-732-2110",
+    "website": "quarternote.com",
+    "notes": "Built-in Sound System, Parking Lot"
+  },
+  {
+    "name": "The Empress Theater",
+    "address": "330 Virginia St",
+    "city": "Vallejo",
+    "phone": "707-552-2400",
+    "website": "empresstheatre.org"
+  },
+  {
+    "name": "Vino Godfather",
+    "address": "1005 Walnut Ave",
+    "city": "Vallejo",
+    "phone": "707-552-2331",
+    "website": "vinogodfather.com"
+  },
+  {
+    "name": "Calicraft",
+    "address": "2700 Mitchell Drive",
+    "city": "Walnut Creek",
+    "phone": "925-478-8103",
+    "website": "calicraft.com"
+  },
+  {
+    "name": "Dan's Irish Sports Bar",
+    "address": "1524 Civic Dr",
+    "city": "Walnut Creek",
+    "phone": "925-932-1331",
+    "website": "dansbar.com"
+  },
+  {
+    "name": "Mike Hess Taproom",
+    "address": "2313 Oak Grove Rd",
+    "city": "Walnut Creek",
+    "phone": "925-278-1271",
+    "website": "mikehessbrewing.com"
+  },
+  {
+    "name": "Residual Sugar Wine Bar",
+    "address": "1684 Locust St",
+    "city": "Walnut Creek",
+    "website": "rswine.com"
+  },
+  {
+    "name": "Retro Junkie",
+    "address": "2112 N Main St",
+    "city": "Walnut Creek",
+    "phone": "925-938-4140",
+    "website": "retrojunkiebar.com",
+    "notes": "Built-in sound system"
+  },
+  {
+    "name": "Rocco's Ristorante Pizzeria",
+    "address": "2909 Ygnacio Valley Rd",
+    "city": "Walnut Creek",
+    "phone": "925-947-6105",
+    "website": "roccospizzeria.com"
+  },
+  {
+    "name": "Rotator Taproom",
+    "address": "1415 Pine St",
+    "city": "Walnut Creek",
+    "phone": "925-952-4578",
+    "website": "rotatortaproom.com"
+  },
+  {
+    "name": "Shadelands Arts Center",
+    "address": "111 Wiget Ln",
+    "city": "Walnut Creek",
+    "phone": "925-295-1490",
+    "website": "communityarts.org"
+  },
+  {
+    "name": "The Broadway Club",
+    "address": "1342 Broadway Plaza",
+    "city": "Walnut Creek",
+    "phone": "925-433-7469",
+    "website": "thebroadwayclubwc.com"
+  },
+  {
+    "name": "The Greenery Sports Bar & Grill",
+    "address": "1551 Marchbanks Dr",
+    "city": "Walnut Creek",
+    "phone": "925-937-1270"
+  },
+  {
+    "name": "Tiki Tom's",
+    "address": "1535 Olympic Blvd",
+    "city": "Walnut Creek",
+    "phone": "925-932-9202"
+  }
+]

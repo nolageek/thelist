@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" class="app">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About - The List</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="assets/styles.css?v20260707">
+</head>
+<body>
+<div class="wrap">
+  <nav class="top">
+    <button id="navToggle" class="nav-toggle" aria-label="Open menu"><i class="fa-solid fa-bars"></i></button>
+    <div class="nav-links" id="navLinks">
+      <div class="nav-drawer-header">
+        Menu
+        <button id="navClose" class="nav-close" aria-label="Close menu"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <a href="index.html">Show List</a>
+      <a href="map.html">Venue Map</a>
+      <a href="calendar.html">Calendar</a>
+      <a href="about.html" class="active">About</a>
+    </div>
+  </nav>
+  <div class="nav-backdrop" id="navBackdrop"></div>
+
+  <header class="masthead">
+    <p class="eyebrow">Steve Koepke's San Francisco Area Music List &middot; last Updated 6/26/2026</p>
+    <h1>The Credit</h1>
+    <p class="sub">Credit where it is due.</p>
+  </header>
+
+  <div class="prose">
+    <p>
+      This is a fancier presentation of Steve Koepke's excellent (San Francisco)
+      Bay Area concert guide (<a href="https://stevelist.com/">stevelist.com</a>).
+      All of the hard work was Steve's; I just wanted to be able to browse it.
+    </p>
+    <p>
+      If you have questions or corrections about the shows themselves, please
+      write to Steve directly at
+      <a href="mailto:skoepke@stevelist.com">skoepke at stevelist dot com</a>.
+      If something looks a hot mess, that is almost certainly a
+      parsing issue on my end, so feel free to contact me about that.
+    </p>
+
+  </div>
+
+  <footer class="note">
+    Data is parsed from the plain-text body of the weekly emailed edition of The List.
+  </footer>
+</div>
+
+<script src="assets/common.js?v20260707"></script>
+<script>
+  TheList.initNavDrawer();
+  TheList.buildLegend(document.getElementById("legend"));
+</script>
+</body>
+</html>

@@ -9,6 +9,7 @@
   var DATA = [];
   var query = "", venueFilter = "", bandFilter = "";
   var activeSyms = new Set();
+  var showPast = false;
   var viewYear, viewMonth; // viewMonth is 1-12
   var selectedD = null;
   var showsByDay = {};
@@ -85,10 +86,10 @@
     monthJump.value = String(viewYear * 100 + viewMonth);
 
     var first = new Date(viewYear, viewMonth - 1, 1);
-    var startOffset = (first.getDay() === 0 ? 6 : first.getDay() - 1); // days before 1st to reach Monday
+    var startOffset = (first.getDay() === 0 ? 6 : first.getDay() - 1);
     var gridStart = new Date(viewYear, viewMonth - 1, 1 - startOffset);
 
-    var todayInt = T.intFromDate(new Date());
+    var todayInt = T.todayInt();
     var hasFilter = query || venueFilter || bandFilter || activeSyms.size > 0;
     var html = "";
 
@@ -97,11 +98,24 @@
       cellDate.setDate(gridStart.getDate() + i);
       var dInt = T.intFromDate(cellDate);
       var inMonth = cellDate.getMonth() === viewMonth - 1;
+      var isPast = dInt < todayInt;
+
+      // When showPast is off, skip past cells entirely (render as blank)
+      if (!showPast && isPast) {
+        var classes = "day-cell past-hidden";
+        if (!inMonth) classes += " out-month";
+        html += '<div class="' + classes + '" data-d="' + dInt + '">' +
+          '<div class="daynum">' + cellDate.getDate() + "</div>" +
+          '<div class="pills"></div></div>';
+        continue;
+      }
+
       var dayShows = (showsByDay[dInt] || []).slice().sort(function (a, b) { return (a.time || "").localeCompare(b.time || ""); });
       var matchCount = dayShows.filter(showMatches).length;
 
       var classes = "day-cell";
       if (!inMonth) classes += " out-month";
+      if (isPast) classes += " is-past";
       if (dInt === todayInt) classes += " today";
       if (dInt === selectedD) classes += " selected";
 
@@ -146,8 +160,11 @@
       html += '<div class="placeholder">No shows listed for this day.</div>';
     } else {
       html += dayShows.map(function (s) {
-        return '<div class="show-item">' +
+        return '<div class="show-item" data-d="' + s.d + '" data-vid="' + T.escapeHtml(s.venue_id) + '">' +
+          '<div class="srow-top">' +
           '<div class="sbands">' + T.escapeHtml(s.bands) + "</div>" +
+          '<button class="cal-btn" title="Add to calendar">" + T.CAL_ICON_HTML + "</button>' +
+          "</div>" +
           '<div class="svenue"><a href="map.html?venue=' + encodeURIComponent(s.venue_id) + '">' +
             T.escapeHtml(T.venueShortName(s.venueName)) + "</a>" +
             (s.city ? " &middot; " + T.escapeHtml(s.city) : "") + "</div>" +
@@ -157,6 +174,16 @@
       }).join("");
     }
     sidebarContent.innerHTML = html;
+    sidebarContent.addEventListener("click", function (e) {
+      var btn = e.target.closest(".cal-btn");
+      if (!btn) return;
+      var item = btn.closest("[data-d]");
+      if (!item) return;
+      var d = Number(item.dataset.d);
+      var vid = item.dataset.vid;
+      var show = (showsByDay[d] || []).find(function (s) { return s.venue_id === vid; });
+      if (show) T.downloadIcs(show);
+    });
     panel.open();
   }
 
@@ -188,19 +215,26 @@
     searchBox.addEventListener("input", function (e) { query = e.target.value.trim(); renderCalendar(); });
     venueSelect.addEventListener("change", function (e) { venueFilter = e.target.value; renderCalendar(); });
     bandSelect.addEventListener("change", function (e) { bandFilter = e.target.value; renderCalendar(); });
-    document.querySelectorAll(".chip[data-sym]").forEach(function (chip) {
-      chip.addEventListener("click", function () {
-        var sym = chip.dataset.sym;
-        if (activeSyms.has(sym)) { activeSyms.delete(sym); chip.classList.remove("active"); }
-        else { activeSyms.add(sym); chip.classList.add("active"); }
-        renderCalendar();
-      });
-    });
   }
 
   async function init() {
     T.initNavDrawer();
     panel = T.initDetailPanel();
+    T.initCollapsiblePanel();
+    T.buildChips(document.getElementById("symChips"), function (sym, isActive) {
+      if (isActive) { activeSyms.add(sym); } else { activeSyms.delete(sym); }
+      renderCalendar();
+    });
+
+    // Past-events toggle
+    var pastBtn = document.getElementById("pastToggle");
+    if (pastBtn) {
+      pastBtn.addEventListener("click", function () {
+        showPast = !showPast;
+        pastBtn.classList.toggle("active", showPast);
+        renderCalendar();
+      });
+    }
     try {
       var loaded = await T.loadData();
       DATA = loaded.data;
@@ -214,12 +248,10 @@
       var monthKeys = populateFilters(loaded.venueList);
       wireEvents();
 
-      // start on the first month that has data
+      // start on the current month (past events hidden by default, so this is the most useful starting point)
       var now = new Date();
-      var fallback = now.getFullYear() * 100 + (now.getMonth() + 1);
-      var firstKey = monthKeys[0] || fallback;
-      viewYear = Math.floor(firstKey / 100);
-      viewMonth = firstKey % 100;
+      viewYear = now.getFullYear();
+      viewMonth = now.getMonth() + 1;
 
       renderCalendar();
     } catch (err) {

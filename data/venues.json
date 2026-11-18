@@ -7,7 +7,7 @@
   "lat": 37.8794617,
   "lng": -122.2993032,
   "precise": true,
-  "show_count": 20
+  "show_count": 27
  },
  {
   "id": "v0002",
@@ -17,7 +17,7 @@
   "lat": 37.8044,
   "lng": -122.2712,
   "precise": false,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0003",
@@ -27,7 +27,7 @@
   "lat": 37.8177234,
   "lng": -122.2758895,
   "precise": true,
-  "show_count": 4
+  "show_count": 6
  },
  {
   "id": "v0004",
@@ -37,7 +37,7 @@
   "lat": 37.8663201,
   "lng": -122.2673229,
   "precise": true,
-  "show_count": 14
+  "show_count": 12
  },
  {
   "id": "v0005",
@@ -57,7 +57,7 @@
   "lat": 37.750338,
   "lng": -122.203049,
   "precise": true,
-  "show_count": 24
+  "show_count": 21
  },
  {
   "id": "v0007",
@@ -67,7 +67,7 @@
   "lat": 37.8080211,
   "lng": -122.2702226,
   "precise": true,
-  "show_count": 40
+  "show_count": 43
  },
  {
   "id": "v0008",
@@ -77,7 +77,7 @@
   "lat": 37.890476,
   "lng": -122.299261,
   "precise": true,
-  "show_count": 47
+  "show_count": 41
  },
  {
   "id": "v0009",
@@ -87,7 +87,7 @@
   "lat": 37.8131757,
   "lng": -122.2683657,
   "precise": true,
-  "show_count": 32
+  "show_count": 27
  },
  {
   "id": "v0010",
@@ -97,7 +97,7 @@
   "lat": 37.7963889,
   "lng": -122.2788889,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0011",
@@ -117,7 +117,7 @@
   "lat": 37.784,
   "lng": -122.4329,
   "precise": true,
-  "show_count": 51
+  "show_count": 49
  },
  {
   "id": "v0013",
@@ -127,7 +127,7 @@
   "lat": 37.7755318,
   "lng": -122.4376002,
   "precise": true,
-  "show_count": 44
+  "show_count": 47
  },
  {
   "id": "v0014",
@@ -137,7 +137,7 @@
   "lat": 37.7761203,
   "lng": -122.4205138,
   "precise": true,
-  "show_count": 55
+  "show_count": 51
  },
  {
   "id": "v0015",
@@ -147,7 +147,7 @@
   "lat": 37.7739809,
   "lng": -122.4242534,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0016",
@@ -167,7 +167,7 @@
   "lat": 37.7781454,
   "lng": -122.4173447,
   "precise": true,
-  "show_count": 10
+  "show_count": 11
  },
  {
   "id": "v0018",
@@ -177,7 +177,7 @@
   "lat": 37.7649778,
   "lng": -122.3964389,
   "precise": true,
-  "show_count": 63
+  "show_count": 79
  },
  {
   "id": "v0019",
@@ -187,7 +187,7 @@
   "lat": 37.8038622,
   "lng": -122.4157199,
   "precise": true,
-  "show_count": 20
+  "show_count": 18
  },
  {
   "id": "v0020",
@@ -197,7 +197,7 @@
   "lat": 37.7838333,
   "lng": -122.4144611,
   "precise": true,
-  "show_count": 4
+  "show_count": 1
  },
  {
   "id": "v0021",
@@ -207,7 +207,7 @@
   "lat": 38.2349545,
   "lng": -122.643064,
   "precise": true,
-  "show_count": 12
+  "show_count": 10
  },
  {
   "id": "v0022",
@@ -217,7 +217,7 @@
   "lat": 38.088546,
   "lng": -122.5534481,
   "precise": true,
-  "show_count": 33
+  "show_count": 3
  },
  {
   "id": "v0023",
@@ -227,7 +227,7 @@
   "lat": 38.4423289,
   "lng": -122.7161522,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0024",
@@ -237,7 +237,7 @@
   "lat": 38.4390705,
   "lng": -122.7221935,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0025",
@@ -247,7 +247,7 @@
   "lat": 38.109791,
   "lng": -122.2480932,
   "precise": true,
-  "show_count": 2
+  "show_count": 1
  },
  {
   "id": "v0026",
@@ -257,7 +257,7 @@
   "lat": 37.2601556,
   "lng": -122.0647,
   "precise": true,
-  "show_count": 61
+  "show_count": 58
  },
  {
   "id": "v0027",
@@ -267,7 +267,7 @@
   "lat": 37.3329778,
   "lng": -121.8923531,
   "precise": true,
-  "show_count": 2
+  "show_count": 0
  },
  {
   "id": "v0028",
@@ -287,7 +287,7 @@
   "lat": 36.9706083,
   "lng": -122.0253611,
   "precise": true,
-  "show_count": 3
+  "show_count": 5
  },
  {
   "id": "v0030",
@@ -307,7 +307,7 @@
   "lat": 37.6600497,
   "lng": -121.8968548,
   "precise": true,
-  "show_count": 12
+  "show_count": 7
  },
  {
   "id": "v0032",
@@ -317,7 +317,7 @@
   "lat": 38.5256668,
   "lng": -121.9715207,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0033",
@@ -327,7 +327,7 @@
   "lat": 37.9068412,
   "lng": -122.3059282,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0034",
@@ -337,7 +337,7 @@
   "lat": 37.8972403,
   "lng": -122.0684994,
   "precise": true,
-  "show_count": 10
+  "show_count": 9
  },
  {
   "id": "v0035",
@@ -347,7 +347,7 @@
   "lat": 37.6712031,
   "lng": -122.0814918,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0036",
@@ -357,7 +357,7 @@
   "lat": 37.7214826,
   "lng": -122.1538475,
   "precise": true,
-  "show_count": 3
+  "show_count": 4
  },
  {
   "id": "v0038",
@@ -367,7 +367,7 @@
   "lat": 37.7419415,
   "lng": -122.4225348,
   "precise": true,
-  "show_count": 5
+  "show_count": 3
  },
  {
   "id": "v0039",
@@ -377,7 +377,7 @@
   "lat": 37.7826737,
   "lng": -122.410428,
   "precise": true,
-  "show_count": 35
+  "show_count": 34
  },
  {
   "id": "v0040",
@@ -387,7 +387,7 @@
   "lat": 37.7849611,
   "lng": -122.4188778,
   "precise": true,
-  "show_count": 42
+  "show_count": 44
  },
  {
   "id": "v0041",
@@ -397,7 +397,7 @@
   "lat": 37.7978148,
   "lng": -122.4045312,
   "precise": true,
-  "show_count": 2
+  "show_count": 0
  },
  {
   "id": "v0042",
@@ -417,7 +417,7 @@
   "lat": 37.7831236,
   "lng": -122.4637279,
   "precise": true,
-  "show_count": 16
+  "show_count": 12
  },
  {
   "id": "v0044",
@@ -427,7 +427,7 @@
   "lat": 37.769711,
   "lng": -122.420421,
   "precise": true,
-  "show_count": 12
+  "show_count": 13
  },
  {
   "id": "v0045",
@@ -437,7 +437,7 @@
   "lat": 37.7451582,
   "lng": -122.4199482,
   "precise": true,
-  "show_count": 19
+  "show_count": 14
  },
  {
   "id": "v0046",
@@ -447,7 +447,7 @@
   "lat": 37.7794001,
   "lng": -122.3980883,
   "precise": true,
-  "show_count": 8
+  "show_count": 7
  },
  {
   "id": "v0047",
@@ -457,7 +457,7 @@
   "lat": 38.246123,
   "lng": -122.2741878,
   "precise": true,
-  "show_count": 26
+  "show_count": 25
  },
  {
   "id": "v0048",
@@ -477,7 +477,7 @@
   "lat": 37.3300018,
   "lng": -121.8857956,
   "precise": true,
-  "show_count": 21
+  "show_count": 24
  },
  {
   "id": "v0051",
@@ -487,7 +487,7 @@
   "lat": 37.307948,
   "lng": -121.931474,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0052",
@@ -497,7 +497,7 @@
   "lat": 37.8044,
   "lng": -122.2712,
   "precise": false,
-  "show_count": 2
+  "show_count": 1
  },
  {
   "id": "v0053",
@@ -507,7 +507,7 @@
   "lat": 37.7773082,
   "lng": -122.4196412,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0054",
@@ -517,7 +517,7 @@
   "lat": 37.7362296,
   "lng": -122.4793847,
   "precise": true,
-  "show_count": 9
+  "show_count": 8
  },
  {
   "id": "v0055",
@@ -527,7 +527,7 @@
   "lat": 37.7650579,
   "lng": -122.4232555,
   "precise": true,
-  "show_count": 29
+  "show_count": 26
  },
  {
   "id": "v0056",
@@ -537,7 +537,7 @@
   "lat": 38.2965348,
   "lng": -122.2875521,
   "precise": true,
-  "show_count": 12
+  "show_count": 11
  },
  {
   "id": "v0057",
@@ -547,7 +547,7 @@
   "lat": 37.4524199,
   "lng": -122.181247,
   "precise": true,
-  "show_count": 5
+  "show_count": 3
  },
  {
   "id": "v0058",
@@ -557,7 +557,7 @@
   "lat": 37.8718053,
   "lng": -122.2698086,
   "precise": true,
-  "show_count": 22
+  "show_count": 21
  },
  {
   "id": "v0059",
@@ -577,7 +577,7 @@
   "lat": 37.7990822,
   "lng": -122.2780826,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0061",
@@ -587,7 +587,7 @@
   "lat": 37.8702332,
   "lng": -122.2038049,
   "precise": true,
-  "show_count": 15
+  "show_count": 14
  },
  {
   "id": "v0062",
@@ -597,7 +597,7 @@
   "lat": 37.9070164,
   "lng": -122.5481013,
   "precise": true,
-  "show_count": 17
+  "show_count": 16
  },
  {
   "id": "v0063",
@@ -657,7 +657,7 @@
   "lat": 37.9473633,
   "lng": -122.063435,
   "precise": true,
-  "show_count": 5
+  "show_count": 0
  },
  {
   "id": "v0069",
@@ -677,7 +677,7 @@
   "lat": 37.7620333,
   "lng": -122.4347591,
   "precise": true,
-  "show_count": 48
+  "show_count": 50
  },
  {
   "id": "v0071",
@@ -767,7 +767,7 @@
   "lat": 37.7680183,
   "lng": -122.3878772,
   "precise": true,
-  "show_count": 15
+  "show_count": 0
  },
  {
   "id": "v0081",
@@ -817,7 +817,7 @@
   "lat": 38.4011563,
   "lng": -122.8227608,
   "precise": true,
-  "show_count": 12
+  "show_count": 49
  },
  {
   "id": "v0086",
@@ -877,7 +877,7 @@
   "lat": 37.8257875,
   "lng": -122.2696896,
   "precise": true,
-  "show_count": 3
+  "show_count": 4
  },
  {
   "id": "v0093",
@@ -887,7 +887,7 @@
   "lat": 37.7876194,
   "lng": -122.4098139,
   "precise": true,
-  "show_count": 39
+  "show_count": 41
  },
  {
   "id": "v0095",
@@ -947,7 +947,7 @@
   "lat": 38.0524208,
   "lng": -122.2130236,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0101",
@@ -997,7 +997,7 @@
   "lat": 37.7822418,
   "lng": -122.4829307,
   "precise": true,
-  "show_count": 4
+  "show_count": 5
  },
  {
   "id": "v0106",
@@ -1017,7 +1017,7 @@
   "lat": 37.4033165,
   "lng": -121.9693774,
   "precise": true,
-  "show_count": 5
+  "show_count": 0
  },
  {
   "id": "v0108",
@@ -1107,7 +1107,7 @@
   "lat": 36.9713188,
   "lng": -122.0258811,
   "precise": true,
-  "show_count": 2
+  "show_count": 6
  },
  {
   "id": "v0117",
@@ -1157,7 +1157,7 @@
   "lat": null,
   "lng": null,
   "precise": false,
-  "show_count": 2
+  "show_count": 3
  },
  {
   "id": "v0125",
@@ -1267,7 +1267,7 @@
   "lat": 36.9713188,
   "lng": -122.0258811,
   "precise": true,
-  "show_count": 5
+  "show_count": 8
  },
  {
   "id": "v0136",
@@ -1317,7 +1317,7 @@
   "lat": 37.3277419,
   "lng": -121.8923366,
   "precise": true,
-  "show_count": 2
+  "show_count": 0
  },
  {
   "id": "v0141",
@@ -1357,7 +1357,7 @@
   "lat": 37.7543922,
   "lng": -122.4185027,
   "precise": true,
-  "show_count": 1
+  "show_count": 2
  },
  {
   "id": "v0145",
@@ -1367,7 +1367,7 @@
   "lat": 37.9622823,
   "lng": -122.4188214,
   "precise": true,
-  "show_count": 1
+  "show_count": 3
  },
  {
   "id": "v0146",
@@ -1427,7 +1427,7 @@
   "lat": 37.7543922,
   "lng": -122.4185027,
   "precise": true,
-  "show_count": 1
+  "show_count": 2
  },
  {
   "id": "v9999",
@@ -1437,6 +1437,216 @@
   "lat": null,
   "lng": null,
   "precise": false,
+  "show_count": 2
+ },
+ {
+  "id": "v0151",
+  "name": "Chase Center",
+  "city": "S.F.",
+  "address": "300 16th Street, San Francisco, CA 94158",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 15
+ },
+ {
+  "id": "v0152",
+  "name": "Levi's Stadium",
+  "city": "Santa Clara",
+  "address": "4900 Marie P DeBartolo Way, Santa Clara, CA 95054",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 5
+ },
+ {
+  "id": "v0153",
+  "name": "Starry Plough",
+  "city": "Berkeley",
+  "address": "3101 Shattuck Ave, Berkeley, CA 94705",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 2
+ },
+ {
+  "id": "v0154",
+  "name": "Brewsters Beer Garden",
+  "city": "Petaluma",
+  "address": "229 Water Street, Petaluma, CA 94952",
+  "lat": null,
+  "lng": null,
+  "precise": false,
   "show_count": 1
+ },
+ {
+  "id": "v0155",
+  "name": "Broadway Studios",
+  "city": "S.F.",
+  "address": "435 Broadway, San Francisco, CA 94133",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0156",
+  "name": "Concord Skatepark",
+  "city": "Concord",
+  "address": "1174 San Miguel Rd, Concord, CA 94518",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0157",
+  "name": "Curran Theater",
+  "city": "S.F.",
+  "address": "445 Geary Street, San Francisco, CA 94102",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0158",
+  "name": "Discovery Meadow",
+  "city": "San Jose",
+  "address": "180 Woz Way, San Jose, CA 95110",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 2
+ },
+ {
+  "id": "v0159",
+  "name": "Everyday Skateshop",
+  "city": "S.F.",
+  "address": "10 Geary Street, San Francisco, CA 94108",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0160",
+  "name": "Jax Vineyards",
+  "city": "S.F.",
+  "address": "326 Brannan Street, San Francisco, CA 94107",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 2
+ },
+ {
+  "id": "v0161",
+  "name": "Keys Jazz Bistro",
+  "city": "S.F.",
+  "address": "498 Broadway, San Francisco, CA 94133",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0162",
+  "name": "Marina Way & MacDonald",
+  "city": "Richmond",
+  "address": "Marina Way and MacDonald Avenue, Richmond, CA 94801",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0163",
+  "name": "SFMOMA",
+  "city": "S.F.",
+  "address": "151 3rd Street, San Francisco, CA 94103",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0164",
+  "name": "Pleasant Hill City Hall",
+  "city": "Pleasant Hill",
+  "address": "100 Gregory Lane, Pleasant Hill, CA 94523",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 5
+ },
+ {
+  "id": "v0165",
+  "name": "Plaza Park",
+  "city": "Kenwood",
+  "address": "198 Warm Springs Road, Kenwood, CA 95452",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0166",
+  "name": "Rolph St at Pomona St",
+  "city": "Crockett",
+  "address": "Rolph Street at Pomona St, Crockett, CA 94525",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0167",
+  "name": "San Anselmo Town Hall",
+  "city": "San Anselmo",
+  "address": "525 San Anselmo Avenue, San Anselmo, CA 94960",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0168",
+  "name": "Ugra Deva Loka",
+  "city": "Oakland",
+  "address": "1035 22nd Ave Unit 14, Oakland, CA 94606",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0169",
+  "name": "Vessel",
+  "city": "Santa Cruz",
+  "address": "150 Felker Street Ste H, Santa Cruz, CA 95060",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0170",
+  "name": "950 Pomona Avenue",
+  "city": "El Cerrito",
+  "address": "950 Pomona Avenue, El Cerrito, CA 94530",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0171",
+  "name": "Mabuhay Gardens",
+  "city": "S.F.",
+  "address": "443 Broadway, San Francisco, CA 94133",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 2
  }
 ]

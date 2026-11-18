@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Bay Area Shows - Sortable Listing</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-<link rel="stylesheet" href="assets/styles.css">
+<link rel="stylesheet" href="assets/styles.css?v20260707">
 </head>
 <body>
 <div class="wrap">
@@ -19,67 +19,73 @@
       <a href="index.html" class="active">Show List</a>
       <a href="map.html">Venue Map</a>
       <a href="calendar.html">Calendar</a>
+      <a href="about.html">About</a>
     </div>
   </nav>
   <div class="nav-backdrop" id="navBackdrop"></div>
 
   <header class="masthead">
-    <p class="eyebrow">The List &middot; San Francisco Area Music List</p>
-    <h1>Show Sheet</h1>
-    <p class="sub">Click any column header to sort. Search by band, venue, or city. Tap the symbol chips below to filter by attribute, or jump to a venue's full calendar from the map.</p>
-    <div class="legend">
-      <div><span class="k"><i class="fa-solid fa-star ic-star"></i></span>recommendable show</div>
-      <div><span class="k"><i class="fa-solid fa-fire ic-fire"></i></span>will probably sell out</div>
-      <div><span class="k"><i class="fa-solid fa-cake-candles ic-cake"></i></span>under 21 must buy drink tickets</div>
-      <div><span class="k"><i class="fa-solid fa-hands-holding-child ic-handschild"></i></span>all ages</div>
-      <div><span class="k"><i class="fa-solid fa-user-injured ic-injured"></i></span>pit warning</div>
-      <div><span class="k"><i class="fa-solid fa-door-closed ic-door"></i></span>no ins/outs</div>
+    <div class="masthead-inner">
+      <div class="masthead-title">
+        <p class="eyebrow">Steve Koepke's San Francisco Area Music List &middot; Last Updated 7/3/2026</p>
+        <h1>The List</h1>
+        <p class="sub">Sort by date, price, or time. Click a venue name to see its full schedule. Tap the symbol chips to filter by attribute.</p>
+        <div class="legend" id="legend"></div>
+      </div>
+      <div class="masthead-search">
+        <input type="search" id="searchBox" placeholder="Search band, venue, or city...">
+      </div>
     </div>
   </header>
 
   <div class="controls">
-    <input type="search" id="searchBox" placeholder="Search band, venue, or city...">
     <select id="monthSelect" class="chip"><option value="">All months</option></select>
     <select id="weekSelect" class="chip"><option value="">All weeks</option></select>
     <select id="venueSelect" class="chip"><option value="">All venues</option></select>
     <select id="citySelect" class="chip"><option value="">All cities</option></select>
     <select id="bandSelect" class="chip"><option value="">All bands</option></select>
-    <div class="chip-group" id="symChips">
-      <span class="chip" data-sym="*" title="Recommended show"><i class="fa-solid fa-star ic-star"></i></span>
-      <span class="chip" data-sym="$" title="Will probably sell out"><i class="fa-solid fa-fire ic-fire"></i></span>
-      <span class="chip" data-sym="^" title="Under 21 must buy drink tickets"><i class="fa-solid fa-cake-candles ic-cake"></i></span>
-      <span class="chip" data-sym="a/a" title="All ages"><i class="fa-solid fa-hands-holding-child ic-handschild"></i></span>
-      <span class="chip" data-sym="@" title="Pit warning"><i class="fa-solid fa-user-injured ic-injured"></i></span>
-      <span class="chip" data-sym="#" title="No ins/outs"><i class="fa-solid fa-door-closed ic-door"></i></span>
-    </div>
+    <div class="chip-group" id="symChips"></div>
+    <span class="chip past-toggle" id="pastToggle" title="Show past events"><i class="fa-solid fa-fw fa-clock-rotate-left"></i></span>
     <span class="count" id="rowCount"></span>
   </div>
 
-  <p class="scroll-hint">Swipe left/right to see all columns</p>
-  <div class="table-scroll">
-    <table id="showTable">
-      <thead>
-        <tr>
-          <th data-key="d" data-type="num">Date<span class="arrow">&#9650;</span></th>
-          <th data-key="bands" data-type="str">Band(s)<span class="arrow">&#9650;</span></th>
-          <th data-key="venueName" data-type="str">Venue<span class="arrow">&#9650;</span></th>
-          <th data-key="age" data-type="str">Age<span class="arrow">&#9650;</span></th>
-          <th data-key="price" data-type="str">Price<span class="arrow">&#9650;</span></th>
-          <th data-key="time" data-type="str">Time<span class="arrow">&#9650;</span></th>
-          <th data-key="symstr" data-type="str">Attrs<span class="arrow">&#9650;</span></th>
-          <th data-key="notes" data-type="str">Notes<span class="arrow">&#9650;</span></th>
-        </tr>
-      </thead>
-      <tbody id="tbody"><tr><td colspan="8" class="loading">Loading shows...</td></tr></tbody>
-    </table>
+  <div class="list-main">
+    <div class="list-area">
+      <p class="scroll-hint">Swipe left/right to see all columns</p>
+      <div class="table-scroll">
+        <table id="showTable">
+          <thead>
+            <tr>
+              <th data-key="d" data-type="num">Date<span class="arrow">&#9650;</span></th>
+              <th class="col-cal-head" title="Add to calendar">Add</th>
+              <th >Band(s)</th>
+              <th >Venue</th>
+              <th >Age</th>
+              <th data-key="price" data-type="str">Price<span class="arrow">&#9650;</span></th>
+              <th data-key="time" data-type="str">Time<span class="arrow">&#9650;</span></th>
+              <th >Attrs</th>
+              <th >Notes</th>
+            </tr>
+          </thead>
+          <tbody id="tbody"><tr><td colspan="9" class="loading">Loading shows...</td></tr></tbody>
+        </table>
+      </div>
+    </div>
+    <div id="sidebar">
+      <button id="panelClose" class="panel-close" aria-label="Close panel"><i class="fa-solid fa-xmark"></i></button>
+      <div id="sidebarContent">
+        <div class="placeholder">Click a venue name to see its full schedule here.</div>
+      </div>
+    </div>
   </div>
+  <div class="panel-backdrop" id="panelBackdrop"></div>
 
   <footer class="note">
     Parsed from the plain-text body of the latest emailed edition of The List, a weekly Bay Area show mailing. Data lives in <code>data/shows.json</code> and <code>data/venues.json</code>; this page joins and renders them. Far-future entries show an explicit year since the source doesn't predict the weekday that far out. A few dozen entries had no listed time, price, or city in the original text; those cells are blank.
   </footer>
 </div>
 
-<script src="assets/common.js"></script>
-<script src="assets/page-list.js"></script>
+<script src="assets/common.js?v20260707"></script>
+<script src="assets/page-list.js?v20260707"></script>
 </body>
 </html>

@@ -11,13 +11,58 @@
   var MONTH_ABBR = {1:"Jan",2:"Feb",3:"Mar",4:"Apr",5:"May",6:"Jun",7:"Jul",8:"Aug",9:"Sep",10:"Oct",11:"Nov",12:"Dec"};
 
   var SYMBOL_ICONS = {
-    "*":   { icon: "fa-star",                cls: "ic-star",       title: "Recommended show" },
-    "$":   { icon: "fa-fire",                cls: "ic-fire",       title: "Will probably sell out" },
-    "^":   { icon: "fa-cake-candles",        cls: "ic-cake",       title: "Under 21 must buy drink tickets" },
-    "a/a": { icon: "fa-hands-holding-child", cls: "ic-handschild", title: "All ages" },
-    "@":   { icon: "fa-user-injured",        cls: "ic-injured",    title: "Pit warning" },
-    "#":   { icon: "fa-door-closed",         cls: "ic-door",       title: "No ins/outs" }
+    "*":   { icon: "fa-star",                color: "#ca8a04", title: "Recommended show" },
+    "$":   { icon: "fa-fire",                color: "#ffa200", title: "Will probably sell out" },
+    "^":   { icon: "fa-ticket",        color: "#f0827a", title: "Under 21 Must Buy Drink Tickets" },
+    "a/a": { icon: "fa-person-breastfeeding", color: "#7dd6ff", title: "All Ages" },
+    "@":   { icon: "fa-user-injured",        color: "#ff1100", title: "Pit warning" },
+    "#":   { icon: "fa-door-closed",         color: "#92400e", title: "No ins/outs" }
   };
+
+  // Calendar-add button icon. Change here and it updates everywhere.
+  var CAL_ICON = "fa-calendar-plus";
+
+  // Pre-built HTML snippet for the calendar-add button icon (used in JS templates).
+  var CAL_ICON_HTML = '<i class="fa-solid fa-fw ' + CAL_ICON + '" style="color:#5cbf69"></i>';
+
+  // Build the attribute filter chips into a container element and wire click events.
+  // onToggle(sym, isActive) is called whenever a chip is toggled.
+  function buildChips(el, onToggle) {
+    if (!el) return;
+    el.innerHTML = SYMBOL_ORDER.map(function (sym) {
+      var info = SYMBOL_ICONS[sym];
+      return '<span class="chip" data-sym="' + sym + '" title="' + info.title + '">' +
+        '<i class="fa-solid fa-fw ' + info.icon + '" style="color:' + info.color + '"></i>' +
+        "</span>";
+    }).join("");
+    if (onToggle) {
+      el.querySelectorAll(".chip[data-sym]").forEach(function (chip) {
+        chip.addEventListener("click", function () {
+          var active = chip.classList.toggle("active");
+          onToggle(chip.dataset.sym, active);
+        });
+      });
+    }
+  }
+
+  // Build the legend list into a container element.
+  // Replaces the inner HTML of el with one <div> per symbol.
+  function buildLegend(el) {
+    if (!el) return;
+    var LEGEND_LABELS = {
+      "*":   "Recommendable Show",
+      "$":   "Will Probably Sell Out",
+      "^":   "Under 21 Must Buy Drink Tickets",
+      "a/a": "All Ages",
+      "@":   "Pit Warning",
+      "#":   "No Ins/Outs"
+    };
+    el.innerHTML = SYMBOL_ORDER.map(function (sym) {
+      var info = SYMBOL_ICONS[sym];
+      return '<div><span class="k"><i class="fa-solid fa-fw ' + info.icon + '" style="color:' + info.color + '"></i></span>' +
+        LEGEND_LABELS[sym] + "</div>";
+    }).join("");
+  }
 
   /* ---- Text / HTML helpers ---------------------------------------------- */
   function escapeHtml(s) {
@@ -35,16 +80,32 @@
       escapeHtml(text.slice(idx + q.length));
   }
 
+  // Active symbol: render with inline color from SYMBOL_ICONS.
   function symbolIconHtml(sym) {
     var info = SYMBOL_ICONS[sym];
     if (!info) return escapeHtml(sym);
-    return '<i class="fa-solid ' + info.icon + " " + info.cls + '" title="' + info.title + '"></i>';
+    return '<i class="fa-solid fa-fw ' + info.icon + '" style="color:' + info.color + '" title="' + info.title + '"></i>';
   }
 
   // Renders the attribute icons for a show: all-ages icon first (if a/a), then symbols.
+  // Used in detail panels where we only show the applicable icons.
   function showSymbolsHtml(show) {
     var parts = (show.age === "a/a") ? [symbolIconHtml("a/a")] : [];
     return parts.concat((show.sym || []).map(symbolIconHtml)).join(" ");
+  }
+
+  // Renders ALL six icons for a table row.
+  // Active icons get their color inline; inactive icons get class="sym-off" (greyed by CSS).
+  var SYMBOL_ORDER = ["*", "$", "^", "a/a", "@", "#"];
+  function showAllSymbolsHtml(show) {
+    return SYMBOL_ORDER.map(function (sym) {
+      var info = SYMBOL_ICONS[sym];
+      var active = (sym === "a/a") ? show.age === "a/a" : (show.sym || []).includes(sym);
+      if (active) {
+        return '<i class="fa-solid fa-fw ' + info.icon + '" style="color:' + info.color + '" title="' + info.title + '"></i>';
+      }
+      return '<i class="fa-solid fa-fw ' + info.icon + ' sym-off" title="' + info.title + '"></i>';
+    }).join("");
   }
 
   /* ---- Band / venue / city parsing -------------------------------------- */
@@ -106,14 +167,104 @@
     return startStr + " \u2013 " + endStr;
   }
 
-  /* ---- Data loading ------------------------------------------------------ */
+  /* ---- Calendar event (.ics) download --------------------------------------- */
+  function parseShowTime(timeStr) {
+    if (!timeStr) return null;
+    var s = timeStr.split("/")[0].trim();
+    var m = s.match(/^(\d{1,2})(?::(\d{2}))?(am|pm)$/i);
+    if (!m) return null;
+    var h = parseInt(m[1], 10);
+    var min = parseInt(m[2] || "0", 10);
+    var ampm = m[3].toLowerCase();
+    if (ampm === "pm" && h !== 12) h += 12;
+    if (ampm === "am" && h === 12) h = 0;
+    return { h: h, m: min };
+  }
+
+  // show must have: d (YYYYMMDD int), bands, venueName, city, age, price, time, venue_id
+  function downloadIcs(show) {
+    var ds = String(show.d);
+    var y = ds.slice(0, 4), mo = ds.slice(4, 6), day = ds.slice(6, 8);
+    function pad(n) { return String(n).padStart(2, "0"); }
+
+    var time = parseShowTime(show.time);
+    var dtStart, dtEnd;
+    if (time) {
+      var endH = time.h + 2; // assume 2-hour duration
+      dtStart = "DTSTART:" + y + mo + day + "T" + pad(time.h) + pad(time.m) + "00";
+      dtEnd   = "DTEND:"   + y + mo + day + "T" + pad(endH)   + pad(time.m) + "00";
+    } else {
+      dtStart = "DTSTART;VALUE=DATE:" + y + mo + day;
+      dtEnd   = "DTEND;VALUE=DATE:"   + y + mo + day;
+    }
+
+    var title = show.bands.split(",")[0].trim() + " @ " + venueShortName(show.venueName);
+    var venue = show.venueName + (show.city ? ", " + show.city : "");
+    var uid = "thelist-" + show.d + "-" + show.venue_id + "@stevelist.com";
+
+    function icsEsc(s) { return String(s).replace(/\\/g, "\\\\").replace(/;/g, "\\;").replace(/,/g, "\\,").replace(/\n/g, "\\n"); }
+
+    var lines = [
+      "BEGIN:VCALENDAR",
+      "VERSION:2.0",
+      "PRODID:-//The List Bay Area//EN",
+      "BEGIN:VEVENT",
+      "UID:" + uid,
+      dtStart,
+      dtEnd,
+      "SUMMARY:" + icsEsc(title),
+      "DESCRIPTION:" + icsEsc(show.bands),
+      "LOCATION:" + icsEsc(venue),
+      "END:VEVENT",
+      "END:VCALENDAR"
+    ];
+
+    var blob = new Blob([lines.join("\r\n")], { type: "text/calendar;charset=utf-8" });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement("a");
+    a.href = url;
+    a.download = "show-" + show.d + "-" + show.time + "-" + show.venue_id + ".ics";
+    document.body.appendChild(a);
+    a.click();
+    setTimeout(function () { document.body.removeChild(a); URL.revokeObjectURL(url); }, 1000);
+  }
+
+  function todayInt() {
+    return intFromDate(new Date());
+  }
+
+  // Returns {from, to} as YYYYMMDD ints for a named range.
+  // Range names: this-week, this-weekend, next-week, next-weekend, two-weeks
+  function dateRange(name) {
+    var now = new Date();
+    var dow = now.getDay(); // 0=Sun, 1=Mon ... 6=Sat
+    var daysToMon = (dow === 0 ? -6 : 1 - dow);
+    function addDays(base, n) { var d = new Date(base); d.setDate(d.getDate() + n); return d; }
+
+    var thisMon = addDays(now, daysToMon);
+    var thisSun = addDays(thisMon, 6);
+    var thisFri = addDays(thisMon, 4);
+    var nextMon = addDays(thisMon, 7);
+    var nextSun = addDays(thisMon, 13);
+    var nextFri = addDays(thisMon, 11);
+    var twoWeeksSun = addDays(thisMon, 20); // Mon + 20 = third Sunday from this Mon
+
+    var ranges = {
+      "this-week":    { from: intFromDate(thisMon), to: intFromDate(thisSun) },
+      "this-weekend": { from: intFromDate(thisFri), to: intFromDate(thisSun) },
+      "next-week":    { from: intFromDate(nextMon), to: intFromDate(nextSun) },
+      "next-weekend": { from: intFromDate(nextFri), to: intFromDate(nextSun) },
+      "two-weeks":    { from: intFromDate(thisMon), to: intFromDate(twoWeeksSun) },
+    };
+    return ranges[name] || null;
+  }
   // Fetches shows + venues, indexes venues by id, and returns a joined dataset.
   // Each returned show gets: venueName, city, cityNorm, symstr, plus a
   // `venues` map and `venueList` array.
   async function loadData() {
     var res = await Promise.all([
-      fetch("data/shows.json"),
-      fetch("data/venues.json")
+      fetch("data/shows.json?v20260707"),
+      fetch("data/venues.json?v20260707")
     ]);
     var shows = await res[0].json();
     var venueList = await res[1].json();
@@ -162,7 +313,19 @@
     var backdrop = document.getElementById("panelBackdrop");
 
     function open() {
-      if (sidebar) sidebar.classList.add("open");
+      if (!sidebar) return;
+      // If the sidebar is currently collapsed (desktop), expand it first
+      if (sidebar.classList.contains("collapsed")) {
+        var main = sidebar.closest(".list-main") || sidebar.closest(".main");
+        sidebar.classList.remove("collapsed");
+        if (main) main.classList.remove("panel-collapsed");
+        // flip the collapse button chevron back
+        var collapseBtn = sidebar.querySelector(".panel-collapse-btn i");
+        if (collapseBtn) {
+          collapseBtn.className = "fa-solid fa-chevron-right";
+        }
+      }
+      sidebar.classList.add("open");
       if (backdrop) backdrop.classList.add("open");
     }
     function close() {
@@ -176,24 +339,57 @@
     return { open: open, close: close };
   }
 
+  /* ---- Desktop collapsible sidebar --------------------------------------- */
+  // Adds a toggle handle button to #sidebar and wires it.
+  // Call from page-map.js and page-calendar.js init().
+  function initCollapsiblePanel() {
+    var sidebar = document.getElementById("sidebar");
+    var main = sidebar && (sidebar.closest(".list-main") || sidebar.closest(".main"));
+    if (!sidebar || !main) return;
+    var btn = document.createElement("button");
+    btn.className = "panel-collapse-btn";
+    btn.setAttribute("aria-label", "Toggle panel");
+    btn.setAttribute("title", "Collapse/expand panel");
+    btn.innerHTML = '<i class="fa-solid fa-chevron-right"></i>';
+    sidebar.appendChild(btn);
+
+    var collapsed = false;
+    btn.addEventListener("click", function () {
+      collapsed = !collapsed;
+      sidebar.classList.toggle("collapsed", collapsed);
+      main.classList.toggle("panel-collapsed", collapsed);
+      btn.innerHTML = collapsed
+        ? '<i class="fa-solid fa-chevron-left"></i>'
+        : '<i class="fa-solid fa-chevron-right"></i>';
+    });
+  }
+
   /* ---- Export ------------------------------------------------------------ */
   window.TheList = {
     MONTH_NAMES: MONTH_NAMES,
     MONTH_ABBR: MONTH_ABBR,
     SYMBOL_ICONS: SYMBOL_ICONS,
+    CAL_ICON_HTML: CAL_ICON_HTML,
     escapeHtml: escapeHtml,
     highlight: highlight,
     symbolIconHtml: symbolIconHtml,
     showSymbolsHtml: showSymbolsHtml,
+    showAllSymbolsHtml: showAllSymbolsHtml,
+    buildChips: buildChips,
+    buildLegend: buildLegend,
     bandTokens: bandTokens,
     venueShortName: venueShortName,
     normalizeCity: normalizeCity,
     dFromInt: dFromInt,
     intFromDate: intFromDate,
+    todayInt: todayInt,
+    dateRange: dateRange,
     mondayOf: mondayOf,
     weekLabel: weekLabel,
     loadData: loadData,
+    downloadIcs: downloadIcs,
     initNavDrawer: initNavDrawer,
-    initDetailPanel: initDetailPanel
+    initDetailPanel: initDetailPanel,
+    initCollapsiblePanel: initCollapsiblePanel
   };
 })();

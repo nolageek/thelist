@@ -6,7 +6,7 @@
 <title>Bay Area Venue Map - The List</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
-<link rel="stylesheet" href="assets/styles.css">
+<link rel="stylesheet" href="assets/styles.css?v20260707">
 </head>
 <body>
 <div class="wrap">
@@ -20,23 +20,37 @@
       <a href="index.html">Show List</a>
       <a href="map.html" class="active">Venue Map</a>
       <a href="calendar.html">Calendar</a>
+      <a href="about.html">About</a>
     </div>
   </nav>
   <div class="nav-backdrop" id="navBackdrop"></div>
 
   <header class="masthead">
-    <p class="eyebrow">The List &middot; Venue Map</p>
-    <h1>Where the shows are</h1>
-    <p class="sub">Click a marker (or search below) to see that venue's full calendar of upcoming shows from The List.</p>
+    <div class="masthead-inner">
+      <div class="masthead-title">
+        <p class="eyebrow">Steve Koepke's San Francisco Area Music List &middot; Last Updated 7/3/2026</p>
+        <h1>The Map</h1>
+        <p class="sub">Click a marker to see that venue's upcoming shows. Filter by city or attribute below. Bigger dots have more shows booked.</p>
+      </div>
+      <div class="masthead-search">
+        <input type="search" id="venueSearch" placeholder="Search venues...">
+      </div>
+    </div>
   </header>
+
+  <div class="controls">
+    <select id="citySelect" class="chip"><option value="">All cities</option></select>
+    <div class="chip-group" id="symChips"></div>
+    <span class="chip past-toggle" id="pastToggle" title="Show past events"><i class="fa-solid fa-fw fa-clock-rotate-left"></i></span>
+    <span class="count" id="venueCount"></span>
+  </div>
 
   <div class="main">
     <div id="map"></div>
     <div id="sidebar">
       <button id="panelClose" class="panel-close" aria-label="Close panel"><i class="fa-solid fa-xmark"></i></button>
-      <input type="search" id="venueSearch" placeholder="Search venues...">
       <div id="sidebarContent">
-        <div class="placeholder">Click a marker on the map, or search for a venue, to see its show calendar. Bigger dots have more shows booked.</div>
+        <div class="placeholder">Click a marker on the map, or search above, to see that venue's show calendar. Bigger dots have more shows booked.</div>
       </div>
     </div>
   </div>
@@ -46,7 +60,7 @@
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
-<script src="assets/common.js"></script>
-<script src="assets/page-map.js"></script>
+<script src="assets/common.js?v20260707"></script>
+<script src="assets/page-map.js?v20260707"></script>
 </body>
 </html>
