@@ -7,7 +7,7 @@
   "lat": 37.8794617,
   "lng": -122.2993032,
   "precise": true,
-  "show_count": 27
+  "show_count": 25
  },
  {
   "id": "v0002",
@@ -17,7 +17,7 @@
   "lat": 37.8044,
   "lng": -122.2712,
   "precise": false,
-  "show_count": 0
+  "show_count": 1
  },
  {
   "id": "v0003",
@@ -37,7 +37,7 @@
   "lat": 37.8663201,
   "lng": -122.2673229,
   "precise": true,
-  "show_count": 12
+  "show_count": 35
  },
  {
   "id": "v0005",
@@ -47,7 +47,7 @@
   "lat": 37.8735759,
   "lng": -122.2544715,
   "precise": true,
-  "show_count": 23
+  "show_count": 1
  },
  {
   "id": "v0006",
@@ -57,7 +57,7 @@
   "lat": 37.750338,
   "lng": -122.203049,
   "precise": true,
-  "show_count": 21
+  "show_count": 7
  },
  {
   "id": "v0007",
@@ -67,7 +67,7 @@
   "lat": 37.8080211,
   "lng": -122.2702226,
   "precise": true,
-  "show_count": 43
+  "show_count": 33
  },
  {
   "id": "v0008",
@@ -77,7 +77,7 @@
   "lat": 37.890476,
   "lng": -122.299261,
   "precise": true,
-  "show_count": 41
+  "show_count": 40
  },
  {
   "id": "v0009",
@@ -87,7 +87,7 @@
   "lat": 37.8131757,
   "lng": -122.2683657,
   "precise": true,
-  "show_count": 27
+  "show_count": 31
  },
  {
   "id": "v0010",
@@ -107,7 +107,7 @@
   "lat": 37.7878701,
   "lng": -122.4214133,
   "precise": true,
-  "show_count": 36
+  "show_count": 29
  },
  {
   "id": "v0012",
@@ -117,7 +117,7 @@
   "lat": 37.784,
   "lng": -122.4329,
   "precise": true,
-  "show_count": 49
+  "show_count": 53
  },
  {
   "id": "v0013",
@@ -127,7 +127,7 @@
   "lat": 37.7755318,
   "lng": -122.4376002,
   "precise": true,
-  "show_count": 47
+  "show_count": 42
  },
  {
   "id": "v0014",
@@ -137,7 +137,7 @@
   "lat": 37.7761203,
   "lng": -122.4205138,
   "precise": true,
-  "show_count": 51
+  "show_count": 44
  },
  {
   "id": "v0015",
@@ -157,7 +157,7 @@
   "lat": 37.7667469,
   "lng": -122.4303843,
   "precise": true,
-  "show_count": 5
+  "show_count": 3
  },
  {
   "id": "v0017",
@@ -167,7 +167,7 @@
   "lat": 37.7781454,
   "lng": -122.4173447,
   "precise": true,
-  "show_count": 11
+  "show_count": 16
  },
  {
   "id": "v0018",
@@ -177,7 +177,7 @@
   "lat": 37.7649778,
   "lng": -122.3964389,
   "precise": true,
-  "show_count": 79
+  "show_count": 36
  },
  {
   "id": "v0019",
@@ -187,7 +187,7 @@
   "lat": 37.8038622,
   "lng": -122.4157199,
   "precise": true,
-  "show_count": 18
+  "show_count": 19
  },
  {
   "id": "v0020",
@@ -197,7 +197,7 @@
   "lat": 37.7838333,
   "lng": -122.4144611,
   "precise": true,
-  "show_count": 1
+  "show_count": 13
  },
  {
   "id": "v0021",
@@ -207,7 +207,7 @@
   "lat": 38.2349545,
   "lng": -122.643064,
   "precise": true,
-  "show_count": 10
+  "show_count": 5
  },
  {
   "id": "v0022",
@@ -217,7 +217,7 @@
   "lat": 38.088546,
   "lng": -122.5534481,
   "precise": true,
-  "show_count": 3
+  "show_count": 25
  },
  {
   "id": "v0023",
@@ -247,7 +247,7 @@
   "lat": 38.109791,
   "lng": -122.2480932,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0026",
@@ -257,7 +257,7 @@
   "lat": 37.2601556,
   "lng": -122.0647,
   "precise": true,
-  "show_count": 58
+  "show_count": 0
  },
  {
   "id": "v0027",
@@ -267,7 +267,7 @@
   "lat": 37.3329778,
   "lng": -121.8923531,
   "precise": true,
-  "show_count": 0
+  "show_count": 2
  },
  {
   "id": "v0028",
@@ -277,7 +277,7 @@
   "lat": 36.9685444,
   "lng": -122.024975,
   "precise": true,
-  "show_count": 2
+  "show_count": 5
  },
  {
   "id": "v0029",
@@ -287,7 +287,7 @@
   "lat": 36.9706083,
   "lng": -122.0253611,
   "precise": true,
-  "show_count": 5
+  "show_count": 6
  },
  {
   "id": "v0030",
@@ -307,7 +307,7 @@
   "lat": 37.6600497,
   "lng": -121.8968548,
   "precise": true,
-  "show_count": 7
+  "show_count": 2
  },
  {
   "id": "v0032",
@@ -337,7 +337,7 @@
   "lat": 37.8972403,
   "lng": -122.0684994,
   "precise": true,
-  "show_count": 9
+  "show_count": 5
  },
  {
   "id": "v0035",
@@ -357,7 +357,7 @@
   "lat": 37.7214826,
   "lng": -122.1538475,
   "precise": true,
-  "show_count": 4
+  "show_count": 2
  },
  {
   "id": "v0038",
@@ -367,7 +367,7 @@
   "lat": 37.7419415,
   "lng": -122.4225348,
   "precise": true,
-  "show_count": 3
+  "show_count": 2
  },
  {
   "id": "v0039",
@@ -377,7 +377,7 @@
   "lat": 37.7826737,
   "lng": -122.410428,
   "precise": true,
-  "show_count": 34
+  "show_count": 18
  },
  {
   "id": "v0040",
@@ -387,7 +387,7 @@
   "lat": 37.7849611,
   "lng": -122.4188778,
   "precise": true,
-  "show_count": 44
+  "show_count": 56
  },
  {
   "id": "v0041",
@@ -407,7 +407,7 @@
   "lat": 37.7604864,
   "lng": -122.4212979,
   "precise": true,
-  "show_count": 58
+  "show_count": 36
  },
  {
   "id": "v0043",
@@ -417,7 +417,7 @@
   "lat": 37.7831236,
   "lng": -122.4637279,
   "precise": true,
-  "show_count": 12
+  "show_count": 10
  },
  {
   "id": "v0044",
@@ -427,7 +427,7 @@
   "lat": 37.769711,
   "lng": -122.420421,
   "precise": true,
-  "show_count": 13
+  "show_count": 5
  },
  {
   "id": "v0045",
@@ -437,7 +437,7 @@
   "lat": 37.7451582,
   "lng": -122.4199482,
   "precise": true,
-  "show_count": 14
+  "show_count": 8
  },
  {
   "id": "v0046",
@@ -447,7 +447,7 @@
   "lat": 37.7794001,
   "lng": -122.3980883,
   "precise": true,
-  "show_count": 7
+  "show_count": 4
  },
  {
   "id": "v0047",
@@ -457,7 +457,7 @@
   "lat": 38.246123,
   "lng": -122.2741878,
   "precise": true,
-  "show_count": 25
+  "show_count": 0
  },
  {
   "id": "v0048",
@@ -477,7 +477,7 @@
   "lat": 37.3300018,
   "lng": -121.8857956,
   "precise": true,
-  "show_count": 24
+  "show_count": 21
  },
  {
   "id": "v0051",
@@ -497,7 +497,7 @@
   "lat": 37.8044,
   "lng": -122.2712,
   "precise": false,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0053",
@@ -517,7 +517,7 @@
   "lat": 37.7362296,
   "lng": -122.4793847,
   "precise": true,
-  "show_count": 8
+  "show_count": 0
  },
  {
   "id": "v0055",
@@ -527,7 +527,7 @@
   "lat": 37.7650579,
   "lng": -122.4232555,
   "precise": true,
-  "show_count": 26
+  "show_count": 14
  },
  {
   "id": "v0056",
@@ -537,7 +537,7 @@
   "lat": 38.2965348,
   "lng": -122.2875521,
   "precise": true,
-  "show_count": 11
+  "show_count": 19
  },
  {
   "id": "v0057",
@@ -547,7 +547,7 @@
   "lat": 37.4524199,
   "lng": -122.181247,
   "precise": true,
-  "show_count": 3
+  "show_count": 2
  },
  {
   "id": "v0058",
@@ -557,7 +557,7 @@
   "lat": 37.8718053,
   "lng": -122.2698086,
   "precise": true,
-  "show_count": 21
+  "show_count": 16
  },
  {
   "id": "v0059",
@@ -567,7 +567,7 @@
   "lat": 37.75526,
   "lng": -122.4193399,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0060",
@@ -587,7 +587,7 @@
   "lat": 37.8702332,
   "lng": -122.2038049,
   "precise": true,
-  "show_count": 14
+  "show_count": 1
  },
  {
   "id": "v0062",
@@ -597,7 +597,7 @@
   "lat": 37.9070164,
   "lng": -122.5481013,
   "precise": true,
-  "show_count": 16
+  "show_count": 0
  },
  {
   "id": "v0063",
@@ -607,7 +607,7 @@
   "lat": 37.8062477,
   "lng": -122.298452,
   "precise": true,
-  "show_count": 3
+  "show_count": 0
  },
  {
   "id": "v0064",
@@ -617,7 +617,7 @@
   "lat": 37.8281224,
   "lng": -122.2791745,
   "precise": true,
-  "show_count": 2
+  "show_count": 0
  },
  {
   "id": "v0065",
@@ -627,7 +627,7 @@
   "lat": 37.7781224,
   "lng": -122.4057868,
   "precise": true,
-  "show_count": 4
+  "show_count": 0
  },
  {
   "id": "v0066",
@@ -637,7 +637,7 @@
   "lat": 38.101328,
   "lng": -122.238609,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0067",
@@ -667,7 +667,7 @@
   "lat": 38.2996713,
   "lng": -122.2855166,
   "precise": true,
-  "show_count": 2
+  "show_count": 6
  },
  {
   "id": "v0070",
@@ -677,7 +677,7 @@
   "lat": 37.7620333,
   "lng": -122.4347591,
   "precise": true,
-  "show_count": 50
+  "show_count": 55
  },
  {
   "id": "v0071",
@@ -697,7 +697,7 @@
   "lat": 37.7699069,
   "lng": -122.4685162,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0073",
@@ -707,7 +707,7 @@
   "lat": 37.4268342,
   "lng": -122.0807023,
   "precise": true,
-  "show_count": 19
+  "show_count": 2
  },
  {
   "id": "v0074",
@@ -717,7 +717,7 @@
   "lat": 36.9794801,
   "lng": -122.0108909,
   "precise": true,
-  "show_count": 8
+  "show_count": 6
  },
  {
   "id": "v0075",
@@ -727,7 +727,7 @@
   "lat": 37.7720932,
   "lng": -122.4313896,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0076",
@@ -737,7 +737,7 @@
   "lat": 37.7699944,
   "lng": -122.4134054,
   "precise": true,
-  "show_count": 2
+  "show_count": 1
  },
  {
   "id": "v0077",
@@ -747,7 +747,7 @@
   "lat": 37.8708514,
   "lng": -122.2695846,
   "precise": true,
-  "show_count": 10
+  "show_count": 1
  },
  {
   "id": "v0078",
@@ -757,7 +757,7 @@
   "lat": 37.9257077,
   "lng": -122.3866731,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0079",
@@ -777,7 +777,7 @@
   "lat": 37.8187247,
   "lng": -122.2934637,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0082",
@@ -787,7 +787,7 @@
   "lat": 37.7147752,
   "lng": -122.1791616,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0083",
@@ -797,7 +797,7 @@
   "lat": 37.791198,
   "lng": -122.4129823,
   "precise": true,
-  "show_count": 30
+  "show_count": 7
  },
  {
   "id": "v0084",
@@ -807,7 +807,7 @@
   "lat": 37.7849884,
   "lng": -122.4023514,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0085",
@@ -817,7 +817,7 @@
   "lat": 38.4011563,
   "lng": -122.8227608,
   "precise": true,
-  "show_count": 49
+  "show_count": 7
  },
  {
   "id": "v0086",
@@ -827,7 +827,7 @@
   "lat": 38.4423711,
   "lng": -122.7156721,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0087",
@@ -837,7 +837,7 @@
   "lat": 37.7954425,
   "lng": -122.3936136,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0088",
@@ -847,7 +847,7 @@
   "lat": 36.9877378,
   "lng": -121.9828754,
   "precise": true,
-  "show_count": 7
+  "show_count": 8
  },
  {
   "id": "v0089",
@@ -857,7 +857,7 @@
   "lat": 37.8805393,
   "lng": -122.523443,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0090",
@@ -867,7 +867,7 @@
   "lat": 37.8239404,
   "lng": -122.2605625,
   "precise": true,
-  "show_count": 3
+  "show_count": 0
  },
  {
   "id": "v0092",
@@ -877,7 +877,7 @@
   "lat": 37.8257875,
   "lng": -122.2696896,
   "precise": true,
-  "show_count": 4
+  "show_count": 0
  },
  {
   "id": "v0093",
@@ -887,7 +887,7 @@
   "lat": 37.7876194,
   "lng": -122.4098139,
   "precise": true,
-  "show_count": 41
+  "show_count": 29
  },
  {
   "id": "v0095",
@@ -897,7 +897,7 @@
   "lat": 37.5049584,
   "lng": -122.4861298,
   "precise": true,
-  "show_count": 5
+  "show_count": 0
  },
  {
   "id": "v0096",
@@ -907,7 +907,7 @@
   "lat": 37.3327655,
   "lng": -121.9011143,
   "precise": true,
-  "show_count": 7
+  "show_count": 1
  },
  {
   "id": "v0097",
@@ -917,7 +917,7 @@
   "lat": 37.0525755,
   "lng": -122.0734752,
   "precise": true,
-  "show_count": 3
+  "show_count": 0
  },
  {
   "id": "v0098",
@@ -927,7 +927,7 @@
   "lat": 38.0067322,
   "lng": -122.6364395,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0099",
@@ -937,7 +937,7 @@
   "lat": 36.9800079,
   "lng": -122.0104175,
   "precise": true,
-  "show_count": 7
+  "show_count": 2
  },
  {
   "id": "v0100",
@@ -957,7 +957,7 @@
   "lat": 37.959729,
   "lng": -121.9382308,
   "precise": true,
-  "show_count": 6
+  "show_count": 1
  },
  {
   "id": "v0102",
@@ -967,7 +967,7 @@
   "lat": 37.9791775,
   "lng": -122.5176727,
   "precise": true,
-  "show_count": 3
+  "show_count": 0
  },
  {
   "id": "v0103",
@@ -987,7 +987,7 @@
   "lat": 37.8716,
   "lng": -122.2727,
   "precise": false,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0105",
@@ -997,7 +997,7 @@
   "lat": 37.7822418,
   "lng": -122.4829307,
   "precise": true,
-  "show_count": 5
+  "show_count": 3
  },
  {
   "id": "v0106",
@@ -1007,7 +1007,7 @@
   "lat": 38.241377,
   "lng": -122.6273289,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0107",
@@ -1027,7 +1027,7 @@
   "lat": 37.8244063,
   "lng": -122.2314865,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0109",
@@ -1067,7 +1067,7 @@
   "lat": 37.9622823,
   "lng": -122.4188214,
   "precise": true,
-  "show_count": 1
+  "show_count": 2
  },
  {
   "id": "v0113",
@@ -1077,7 +1077,7 @@
   "lat": 36.9986293,
   "lng": -122.0564892,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0114",
@@ -1097,7 +1097,7 @@
   "lat": 37.7689203,
   "lng": -122.482977,
   "precise": true,
-  "show_count": 3
+  "show_count": 0
  },
  {
   "id": "v0116",
@@ -1107,7 +1107,7 @@
   "lat": 36.9713188,
   "lng": -122.0258811,
   "precise": true,
-  "show_count": 6
+  "show_count": 5
  },
  {
   "id": "v0117",
@@ -1117,7 +1117,7 @@
   "lat": 37.7711099,
   "lng": -122.4127726,
   "precise": true,
-  "show_count": 2
+  "show_count": 0
  },
  {
   "id": "v0118",
@@ -1127,7 +1127,7 @@
   "lat": 38.2807396,
   "lng": -122.4171519,
   "precise": true,
-  "show_count": 2
+  "show_count": 0
  },
  {
   "id": "v0121",
@@ -1137,7 +1137,7 @@
   "lat": 37.8726497,
   "lng": -122.2687563,
   "precise": true,
-  "show_count": 2
+  "show_count": 0
  },
  {
   "id": "v0122",
@@ -1147,7 +1147,7 @@
   "lat": 37.7527499,
   "lng": -122.5056443,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0123",
@@ -1157,7 +1157,7 @@
   "lat": null,
   "lng": null,
   "precise": false,
-  "show_count": 3
+  "show_count": 1
  },
  {
   "id": "v0125",
@@ -1167,7 +1167,7 @@
   "lat": 37.7775104,
   "lng": -122.4207115,
   "precise": true,
-  "show_count": 3
+  "show_count": 0
  },
  {
   "id": "v0126",
@@ -1177,7 +1177,7 @@
   "lat": 37.8033528,
   "lng": -122.4142929,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0127",
@@ -1187,7 +1187,7 @@
   "lat": 37.7783654,
   "lng": -122.3899162,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0128",
@@ -1197,7 +1197,7 @@
   "lat": 37.6375386,
   "lng": -120.8509241,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0129",
@@ -1207,7 +1207,7 @@
   "lat": 37.9761004,
   "lng": -122.56265,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0130",
@@ -1217,7 +1217,7 @@
   "lat": 38.2469926,
   "lng": -122.2740121,
   "precise": true,
-  "show_count": 2
+  "show_count": 0
  },
  {
   "id": "v0131",
@@ -1237,7 +1237,7 @@
   "lat": 37.7883035,
   "lng": -122.4204437,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0133",
@@ -1247,7 +1247,7 @@
   "lat": 38.0676095,
   "lng": -122.8055455,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0134",
@@ -1267,7 +1267,7 @@
   "lat": 36.9713188,
   "lng": -122.0258811,
   "precise": true,
-  "show_count": 8
+  "show_count": 13
  },
  {
   "id": "v0136",
@@ -1277,7 +1277,7 @@
   "lat": 37.9127055,
   "lng": -122.6087542,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0137",
@@ -1287,7 +1287,7 @@
   "lat": 37.7962028,
   "lng": -122.4058773,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0138",
@@ -1297,7 +1297,7 @@
   "lat": 37.8097055,
   "lng": -122.2682219,
   "precise": true,
-  "show_count": 1
+  "show_count": 2
  },
  {
   "id": "v0139",
@@ -1307,7 +1307,7 @@
   "lat": 37.4307223,
   "lng": -122.1660268,
   "precise": true,
-  "show_count": 5
+  "show_count": 0
  },
  {
   "id": "v0140",
@@ -1327,7 +1327,7 @@
   "lat": 37.7502132,
   "lng": -122.3801194,
   "precise": true,
-  "show_count": 2
+  "show_count": 0
  },
  {
   "id": "v0142",
@@ -1337,7 +1337,7 @@
   "lat": 37.6333838,
   "lng": -122.4949154,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0143",
@@ -1347,7 +1347,7 @@
   "lat": 37.7667207,
   "lng": -122.4305438,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0144",
@@ -1357,7 +1357,7 @@
   "lat": 37.7543922,
   "lng": -122.4185027,
   "precise": true,
-  "show_count": 2
+  "show_count": 1
  },
  {
   "id": "v0145",
@@ -1367,7 +1367,7 @@
   "lat": 37.9622823,
   "lng": -122.4188214,
   "precise": true,
-  "show_count": 3
+  "show_count": 0
  },
  {
   "id": "v0146",
@@ -1377,7 +1377,7 @@
   "lat": 37.7492774,
   "lng": -122.3856944,
   "precise": true,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0147",
@@ -1387,7 +1387,7 @@
   "lat": 37.8794811,
   "lng": -122.2998406,
   "precise": true,
-  "show_count": 1
+  "show_count": 2
  },
  {
   "id": "v0148",
@@ -1397,7 +1397,7 @@
   "lat": 37.706997,
   "lng": -122.4196491,
   "precise": true,
-  "show_count": 4
+  "show_count": 2
  },
  {
   "id": "v0149",
@@ -1407,7 +1407,7 @@
   "lat": 37.7976328,
   "lng": -122.2615979,
   "precise": true,
-  "show_count": 2
+  "show_count": 1
  },
  {
   "id": "v0150",
@@ -1417,7 +1417,7 @@
   "lat": 37.8029308,
   "lng": -122.4484231,
   "precise": true,
-  "show_count": 1
+  "show_count": 4
  },
  {
   "id": "v0144",
@@ -1427,7 +1427,7 @@
   "lat": 37.7543922,
   "lng": -122.4185027,
   "precise": true,
-  "show_count": 2
+  "show_count": 1
  },
  {
   "id": "v9999",
@@ -1447,7 +1447,7 @@
   "lat": null,
   "lng": null,
   "precise": false,
-  "show_count": 15
+  "show_count": 6
  },
  {
   "id": "v0152",
@@ -1457,7 +1457,7 @@
   "lat": null,
   "lng": null,
   "precise": false,
-  "show_count": 5
+  "show_count": 1
  },
  {
   "id": "v0153",
@@ -1467,7 +1467,7 @@
   "lat": null,
   "lng": null,
   "precise": false,
-  "show_count": 2
+  "show_count": 1
  },
  {
   "id": "v0154",
@@ -1477,7 +1477,7 @@
   "lat": null,
   "lng": null,
   "precise": false,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0155",
@@ -1487,7 +1487,7 @@
   "lat": null,
   "lng": null,
   "precise": false,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0156",
@@ -1497,7 +1497,7 @@
   "lat": null,
   "lng": null,
   "precise": false,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0157",
@@ -1507,7 +1507,7 @@
   "lat": null,
   "lng": null,
   "precise": false,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0158",
@@ -1517,7 +1517,7 @@
   "lat": null,
   "lng": null,
   "precise": false,
-  "show_count": 2
+  "show_count": 0
  },
  {
   "id": "v0159",
@@ -1527,7 +1527,7 @@
   "lat": null,
   "lng": null,
   "precise": false,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0160",
@@ -1537,7 +1537,7 @@
   "lat": null,
   "lng": null,
   "precise": false,
-  "show_count": 2
+  "show_count": 0
  },
  {
   "id": "v0161",
@@ -1547,7 +1547,7 @@
   "lat": null,
   "lng": null,
   "precise": false,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0162",
@@ -1557,7 +1557,7 @@
   "lat": null,
   "lng": null,
   "precise": false,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0163",
@@ -1567,7 +1567,7 @@
   "lat": null,
   "lng": null,
   "precise": false,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0164",
@@ -1577,7 +1577,7 @@
   "lat": null,
   "lng": null,
   "precise": false,
-  "show_count": 5
+  "show_count": 0
  },
  {
   "id": "v0165",
@@ -1587,7 +1587,7 @@
   "lat": null,
   "lng": null,
   "precise": false,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0166",
@@ -1597,7 +1597,7 @@
   "lat": null,
   "lng": null,
   "precise": false,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0167",
@@ -1607,7 +1607,7 @@
   "lat": null,
   "lng": null,
   "precise": false,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0168",
@@ -1627,7 +1627,7 @@
   "lat": null,
   "lng": null,
   "precise": false,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0170",
@@ -1637,7 +1637,7 @@
   "lat": null,
   "lng": null,
   "precise": false,
-  "show_count": 1
+  "show_count": 0
  },
  {
   "id": "v0171",
@@ -1647,6 +1647,356 @@
   "lat": null,
   "lng": null,
   "precise": false,
+  "show_count": 7
+ },
+ {
+  "id": "v0172",
+  "name": "111 Minna Gallery",
+  "city": "S.F.",
+  "address": "",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0173",
+  "name": "37th Avenue at Ortega",
+  "city": "S.F.",
+  "address": "",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0174",
+  "name": "3rd and Army Skatepark",
+  "city": "S.F.",
+  "address": "",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0175",
+  "name": "9 Lives",
+  "city": "Oakland",
+  "address": "",
+  "lat": null,
+  "lng": null,
+  "precise": false,
   "show_count": 2
+ },
+ {
+  "id": "v0176",
+  "name": "Amoeba Music",
+  "city": "S.F.",
+  "address": "",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0177",
+  "name": "Big Easy",
+  "city": "Petaluma",
+  "address": "",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0178",
+  "name": "Booksmith",
+  "city": "S.F.",
+  "address": "",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0179",
+  "name": "Boom Boom Room",
+  "city": "S.F.",
+  "address": "",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0180",
+  "name": "Bric-A-Brac",
+  "city": "S.F.",
+  "address": "",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 3
+ },
+ {
+  "id": "v0181",
+  "name": "Broadway Hall",
+  "city": "Oakland",
+  "address": "",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0182",
+  "name": "California Ballroom",
+  "city": "Oakland",
+  "address": "",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 2
+ },
+ {
+  "id": "v0183",
+  "name": "FML Studios",
+  "city": "Oakland",
+  "address": "",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 2
+ },
+ {
+  "id": "v0184",
+  "name": "Fireside Lounge",
+  "city": "Alameda",
+  "address": "",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0185",
+  "name": "First Church of the Buzzard",
+  "city": "Oakland",
+  "address": "",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 2
+ },
+ {
+  "id": "v0186",
+  "name": "Fourth Bore",
+  "city": "Orinda ?/?",
+  "address": "",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0187",
+  "name": "Giants Ballpark",
+  "city": "S.F.",
+  "address": "",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0188",
+  "name": "Golden Gate Park",
+  "city": "S.F.",
+  "address": "",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0189",
+  "name": "Great Northern",
+  "city": "S.F.",
+  "address": "",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0190",
+  "name": "Guitar Wars",
+  "city": "San Jose",
+  "address": "",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0191",
+  "name": "Hesher's Pizza",
+  "city": "Oakland",
+  "address": "",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0192",
+  "name": "Hub",
+  "city": "Redwood City",
+  "address": "",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0193",
+  "name": "Kuumbwa",
+  "city": "Santa Cruz",
+  "address": "",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 2
+ },
+ {
+  "id": "v0194",
+  "name": "Makeout Room",
+  "city": "S.F.",
+  "address": "",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 4
+ },
+ {
+  "id": "v0195",
+  "name": "No Label",
+  "city": "Oakland",
+  "address": "",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0196",
+  "name": "O'Reilly's",
+  "city": "S.F.",
+  "address": "",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0197",
+  "name": "Odd Fellows Hall",
+  "city": "Vallejo",
+  "address": "",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0198",
+  "name": "Pier 48",
+  "city": "S.F.",
+  "address": "",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0199",
+  "name": "Planetarium",
+  "city": "Richmond",
+  "address": "",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 5
+ },
+ {
+  "id": "v0200",
+  "name": "Rito Theater",
+  "city": "Santa Cruz",
+  "address": "",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0201",
+  "name": "Temescal Arts Center",
+  "city": "Oakland",
+  "address": "",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0202",
+  "name": "Tequila Mockingbird",
+  "city": "S.F.",
+  "address": "",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0203",
+  "name": "Toot's Tavern",
+  "city": "Crockett",
+  "address": "",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0204",
+  "name": "Towne Cycles",
+  "city": "West Oakland",
+  "address": "",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0205",
+  "name": "Up the Crek Radio",
+  "city": "Walnut Creek",
+  "address": "",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
+ },
+ {
+  "id": "v0206",
+  "name": "Vinnie's",
+  "city": "Concord",
+  "address": "",
+  "lat": null,
+  "lng": null,
+  "precise": false,
+  "show_count": 1
  }
 ]

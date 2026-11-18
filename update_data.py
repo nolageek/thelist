@@ -245,7 +245,10 @@ def is_date_line(l):
     return match_date(l) is not None
 
 
-def parse_body(body):
+def parse_body(body, ref=None):
+    """ref: date of the email; undated-year entries more than ~5 months before
+    the ref month roll into the next year."""
+    ref = ref or date.today()
     lines = [l.rstrip("\r") for l in body.split("\n")]
 
     end_idx = len(lines)
@@ -265,14 +268,22 @@ def parse_body(body):
             continue
 
         mon_str, day, year_str, wk, rest = result
-        year = int(year_str) if year_str else 2026
         month = MONTH_MAP.get(mon_str, 0)
         if not month:
             i += 1
             continue
+        if year_str:
+            year = int(year_str)
+        else:
+            year = ref.year
+            try:
+                if date(year, month, day) < ref - timedelta(days=45):
+                    year += 1
+            except ValueError:
+                pass
 
         d_int = year * 10000 + month * 100 + day
-        date_str = f"{mon_str} {day}" if year == 2026 else f"{mon_str} {day} {year}"
+        date_str = f"{mon_str} {day}" if year == ref.year else f"{mon_str} {day} {year}"
         if not wk:
             dt = date(year, month, day)
             wk = ["mon", "tue", "wed", "thr", "fri", "sat", "sun"][dt.weekday()]
@@ -366,7 +377,7 @@ def parse_body(body):
 
 def norm_name(s):
     s = s.lower().strip()
-    s = re.sub(r"^the\s+", "", s)
+    s = re.sub(r"^(the|thee)\s+", "", s)
     s = re.sub(r"[',.]", "", s)
     s = re.sub(r"\s+", " ", s)
     return s.strip()
@@ -413,6 +424,10 @@ VENUE_ALIASES = {
     "ugra deva loka 1035 22nd ave unit 14": "v0168", "ugra deva loka": "v0168",
     "vessel 150 felker street ste h": "v0169", "vessel": "v0169",
     "950 pomona avenue": "v0170",
+    "on broadway at mabuhay gardens": "v0171", "on broadway": "v0171",
+    "napa music hall": "v0069", "stary plough": "v0153", "49s stadium": "v0152",
+    "ecastro": "v0070", "sf civic auditorium": "v0017",
+    "gilman brewery company": "v0147", "gilman brewing co": "v0147",
 }
 
 
@@ -426,6 +441,24 @@ def build_venue_lookup(venues):
     return lookup
 
 
+NAME_FIXES = {
+    "kuumbwa jazz center": "Kuumbwa", "9 lives warehouse": "9 Lives",
+    "club": "Napa Music Hall", "brodway hall": "Broadway Hall",
+}
+
+
+def canon_venue(name):
+    """Strip leading at/the/thee, trailing ')' and ', street address' from a raw venue."""
+    n = name.strip()
+    n = re.sub(r"^(at\s+)?(the|thee)\s+", "", n, flags=re.I) if re.match(r"^(at\s+)?(the|thee)\s+", n, re.I) else re.sub(r"^at\s+", "", n, flags=re.I)
+    n = n.rstrip(") ").strip()
+    if "," in n:
+        head = n.split(",")[0].strip()
+        if head:
+            n = head
+    return NAME_FIXES.get(n.lower(), n)
+
+
 def assign_venue_ids(shows, venues):
     """
     Mutate each show dict to add venue_id.
@@ -435,7 +468,9 @@ def assign_venue_ids(shows, venues):
     unmatched = {}
 
     for s in shows:
-        vname = s.get("venue", "").strip()
+        raw_v = s.get("venue", "").strip()
+        vname = canon_venue(raw_v) if raw_v else ""
+        s["venue"] = vname
         if not vname:
             s["venue_id"] = "v9999"
             continue
@@ -483,7 +518,7 @@ def bump_version(common_js_path, new_version):
         rf'\g<1>?v{new_version}\g<2>',
         content,
     )
-    if updated == content:
+    if not re.search(r'fetch\("data/(?:shows|venues)\.json\?v\d{8}"', content):
         print(f"  WARNING: version pattern not found in {common_js_path}")
         return False
     open(common_js_path, "w", encoding="utf-8").write(updated)
@@ -511,7 +546,11 @@ def main():
 
     # 2. Parse
     print("\n[2] Parsing show listings...")
-    shows = parse_body(body)
+    try:
+        ref = datetime.fromisoformat(str(email_date).replace("Z", "+00:00")).date()
+    except Exception:
+        ref = date.today()
+    shows = parse_body(body, ref)
     print(f"  Parsed {len(shows)} shows")
     dates = sorted(set(s["d"] for s in shows))
     if dates:

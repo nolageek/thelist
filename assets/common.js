@@ -263,8 +263,8 @@
   // `venues` map and `venueList` array.
   async function loadData() {
     var res = await Promise.all([
-      fetch("data/shows.json?v20260707"),
-      fetch("data/venues.json?v20260707")
+      fetch("data/shows.json?v20261118"),
+      fetch("data/venues.json?v20261118")
     ]);
     var shows = await res[0].json();
     var venueList = await res[1].json();
