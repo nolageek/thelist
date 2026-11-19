@@ -8,7 +8,7 @@ as a filterable table, a venue map, and a calendar. No build step.
 ```
 index.html       Show list (sort by date/price/time, filters, venue side panel)
 map.html         Leaflet venue map with search, city and attribute filters
-calendar.html    Month calendar; click a day for its lineup
+calendar.html    Outlook-style Day/Week/Month/Schedule views (?view=&date=YYYYMMDD)
 about.html       Credits and symbol legend
 assets/
   styles.css     All styles; colors are CSS variables

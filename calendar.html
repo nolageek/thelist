@@ -29,7 +29,7 @@
       <div class="masthead-title">
         <p class="eyebrow">Steve Koepke's San Francisco Area Music List &middot; Last Updated 7/3/2026</p>
         <h1>The Calendar</h1>
-        <p class="sub">Click any day to see its full lineup. Use search, venue, band, or attribute filters to dim out everything else.</p>
+        <p class="sub">Switch between Day, Week, Month and Schedule views. Click a show or day for details in the panel. Search and filters hide everything that does not match.</p>
       </div>
       <div class="masthead-search">
         <input type="search" id="searchBox" placeholder="Search band, venue, or city...">
@@ -44,20 +44,24 @@
     <span class="chip past-toggle" id="pastToggle" title="Show past events"><i class="fa-solid fa-fw fa-clock-rotate-left"></i></span>
   </div>
 
-  <div class="month-nav">
-    <button id="prevMonth">&larr; Prev</button>
-    <div class="label" id="monthLabel">&nbsp;</div>
-    <button id="nextMonth">Next &rarr;</button>
-    <select id="monthJump"></select>
-    <button id="todayBtn" class="today-btn">Today</button>
-  </div>
-
   <div class="main">
     <div class="cal-area">
-      <div class="dow-row">
-        <div>Mon</div><div>Tue</div><div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div><div>Sun</div>
+      <div class="cal-toolbar">
+        <button id="todayBtn" class="tb-btn">Today</button>
+        <div class="tb-arrows">
+          <button id="prevBtn" class="tb-btn" aria-label="Previous"><i class="fa-solid fa-chevron-left"></i></button>
+          <button id="nextBtn" class="tb-btn" aria-label="Next"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+        <div class="cal-title" id="calTitle">&nbsp;</div>
+        <input type="date" id="jumpDate" class="chip" title="Jump to date">
+        <div class="view-switch" id="viewSwitch" role="tablist">
+          <button data-view="day">Day</button>
+          <button data-view="week">Week</button>
+          <button data-view="month">Month</button>
+          <button data-view="schedule">Schedule</button>
+        </div>
       </div>
-      <div class="cal-grid" id="calGrid"></div>
+      <div class="cal-view" id="calView"></div>
     </div>
     <div id="sidebar">
       <button id="panelClose" class="panel-close" aria-label="Close panel"><i class="fa-solid fa-xmark"></i></button>
@@ -68,7 +72,7 @@
   </div>
   <div class="panel-backdrop" id="panelBackdrop"></div>
 
-  <footer class="note">Data: <code>data/shows.json</code> + <code>data/venues.json</code>. Days with no listed shows are simply blank.</footer>
+  <footer class="note">Data: <code>data/shows.json</code> + <code>data/venues.json</code>. Week view groups shows by start time (the first time listed); click a block for the full list.</footer>
 </div>
 
 <script src="assets/common.js?v20261118"></script>

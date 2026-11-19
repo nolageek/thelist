@@ -387,6 +387,7 @@
     mondayOf: mondayOf,
     weekLabel: weekLabel,
     loadData: loadData,
+    parseShowTime: parseShowTime,
     downloadIcs: downloadIcs,
     initNavDrawer: initNavDrawer,
     initDetailPanel: initDetailPanel,
